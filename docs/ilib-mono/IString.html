@@ -1,0 +1,7432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>IString - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="Address.html">Address</a><ul class='methods'><li data-type='method'><a href="Address.html#.create">create</a></li></ul></li><li><a href="AddressFmt.html">AddressFmt</a><ul class='methods'><li data-type='method'><a href="AddressFmt.html#format">format</a></li><li data-type='method'><a href="AddressFmt.html#getFormatInfo">getFormatInfo</a></li><li data-type='method'><a href="AddressFmt.html#.create">create</a></li></ul></li><li><a href="AnsiConsoleFormatter.html">AnsiConsoleFormatter</a><ul class='methods'><li data-type='method'><a href="AnsiConsoleFormatter.html#format">format</a></li></ul></li><li><a href="BuiltinPlugin.html">BuiltinPlugin</a><ul class='methods'><li data-type='method'><a href="BuiltinPlugin.html#getFormatters">getFormatters</a></li><li data-type='method'><a href="BuiltinPlugin.html#getParsers">getParsers</a></li><li data-type='method'><a href="BuiltinPlugin.html#getRuleSets">getRuleSets</a></li><li data-type='method'><a href="BuiltinPlugin.html#getRules">getRules</a></li><li data-type='method'><a href="BuiltinPlugin.html#getSerializers">getSerializers</a></li><li data-type='method'><a href="BuiltinPlugin.html#getTransformers">getTransformers</a></li></ul></li><li><a href="CSharpEscaper.html">CSharpEscaper</a><ul class='methods'><li data-type='method'><a href="CSharpEscaper.html#escape">escape</a></li><li data-type='method'><a href="CSharpEscaper.html#unescape">unescape</a></li></ul></li><li><a href="CaseMapper.html">CaseMapper</a><ul class='methods'><li data-type='method'><a href="CaseMapper.html#getLocale">getLocale</a></li><li data-type='method'><a href="CaseMapper.html#map">map</a></li></ul></li><li><a href="ConfigBasedFormatter.html">ConfigBasedFormatter</a><ul class='methods'><li data-type='method'><a href="ConfigBasedFormatter.html#format">format</a></li></ul></li><li><a href="DirItem.html">DirItem</a><ul class='methods'><li data-type='method'><a href="DirItem.html#findIssues">findIssues</a></li><li data-type='method'><a href="DirItem.html#getFilePath">getFilePath</a></li><li data-type='method'><a href="DirItem.html#parse">parse</a></li></ul></li><li><a href="ErrorFilterTransformer.html">ErrorFilterTransformer</a><ul class='methods'><li data-type='method'><a href="ErrorFilterTransformer.html#transform">transform</a></li></ul></li><li><a href="Escaper.html">Escaper</a><ul class='methods'><li data-type='method'><a href="Escaper.html#escape">escape</a></li><li data-type='method'><a href="Escaper.html#getDescription">getDescription</a></li><li data-type='method'><a href="Escaper.html#getName">getName</a></li><li data-type='method'><a href="Escaper.html#getStyle">getStyle</a></li><li data-type='method'><a href="Escaper.html#unescape">unescape</a></li></ul></li><li><a href="FakeLoader.html">FakeLoader</a><ul class='methods'><li data-type='method'><a href="FakeLoader.html#addPaths">addPaths</a></li><li data-type='method'><a href="FakeLoader.html#getName">getName</a></li><li data-type='method'><a href="FakeLoader.html#getPlatforms">getPlatforms</a></li><li data-type='method'><a href="FakeLoader.html#loadFile">loadFile</a></li><li data-type='method'><a href="FakeLoader.html#loadFiles">loadFiles</a></li><li data-type='method'><a href="FakeLoader.html#setAsyncMode">setAsyncMode</a></li><li data-type='method'><a href="FakeLoader.html#setSyncMode">setSyncMode</a></li><li data-type='method'><a href="FakeLoader.html#supportsSync">supportsSync</a></li></ul></li><li><a href="FileConfigurationProvider.html">FileConfigurationProvider</a><ul class='methods'><li data-type='method'><a href="FileConfigurationProvider.html#loadJsConfiguration">loadJsConfiguration</a></li><li data-type='method'><a href="FileConfigurationProvider.html#loadJsonConfiguration">loadJsonConfiguration</a></li></ul></li><li><a href="FileStats.html">FileStats</a><ul class='methods'><li data-type='method'><a href="FileStats.html#addBytes">addBytes</a></li><li data-type='method'><a href="FileStats.html#addFiles">addFiles</a></li><li data-type='method'><a href="FileStats.html#addLines">addLines</a></li><li data-type='method'><a href="FileStats.html#addModules">addModules</a></li><li data-type='method'><a href="FileStats.html#addStats">addStats</a></li><li data-type='method'><a href="FileStats.html#addWords">addWords</a></li><li data-type='method'><a href="FileStats.html#getBytes">getBytes</a></li><li data-type='method'><a href="FileStats.html#getFiles">getFiles</a></li><li data-type='method'><a href="FileStats.html#getLines">getLines</a></li><li data-type='method'><a href="FileStats.html#getModules">getModules</a></li><li data-type='method'><a href="FileStats.html#getWords">getWords</a></li></ul></li><li><a href="FileType.html">FileType</a><ul class='methods'><li data-type='method'><a href="FileType.html#getParserClasses">getParserClasses</a></li><li data-type='method'><a href="FileType.html#getRuleSetNames">getRuleSetNames</a></li><li data-type='method'><a href="FileType.html#getRules">getRules</a></li><li data-type='method'><a href="FileType.html#getSerializer">getSerializer</a></li><li data-type='method'><a href="FileType.html#getTransformers">getTransformers</a></li></ul></li><li><a href="Fix.html">Fix</a></li><li><a href="Fixer.html">Fixer</a><ul class='methods'><li data-type='method'><a href="Fixer.html#applyFixes">applyFixes</a></li></ul></li><li><a href="FixerManager.html">FixerManager</a><ul class='methods'><li data-type='method'><a href="FixerManager.html#add">add</a></li><li data-type='method'><a href="FixerManager.html#get">get</a></li><li data-type='method'><a href="FixerManager.html#size">size</a></li></ul></li><li><a href="FlowParser.html">FlowParser</a><ul class='methods'><li data-type='method'><a href="FlowParser.html#parse">parse</a></li></ul></li><li><a href="FolderConfigurationProvider.html">FolderConfigurationProvider</a><ul class='methods'><li data-type='method'><a href="FolderConfigurationProvider.html#hasConfigurationFile">hasConfigurationFile</a></li></ul></li><li><a href="FormatjsPlurals.html">FormatjsPlurals</a><ul class='methods'><li data-type='method'><a href="FormatjsPlurals.html#match">match</a></li></ul></li><li><a href="Formatter.html">Formatter</a><ul class='methods'><li data-type='method'><a href="Formatter.html#format">format</a></li><li data-type='method'><a href="Formatter.html#formatOutput">formatOutput</a></li><li data-type='method'><a href="Formatter.html#getDescription">getDescription</a></li><li data-type='method'><a href="Formatter.html#getName">getName</a></li></ul></li><li><a href="FormatterManager.html">FormatterManager</a><ul class='methods'><li data-type='method'><a href="FormatterManager.html#add">add</a></li><li data-type='method'><a href="FormatterManager.html#get">get</a></li><li data-type='method'><a href="FormatterManager.html#getDescriptions">getDescriptions</a></li><li data-type='method'><a href="FormatterManager.html#size">size</a></li></ul></li><li><a href="ISet.html">ISet</a><ul class='methods'><li data-type='method'><a href="ISet.html#add">add</a></li><li data-type='method'><a href="ISet.html#asArray">asArray</a></li><li data-type='method'><a href="ISet.html#clear">clear</a></li><li data-type='method'><a href="ISet.html#contains">contains</a></li><li data-type='method'><a href="ISet.html#fromJS">fromJS</a></li><li data-type='method'><a href="ISet.html#isEmpty">isEmpty</a></li><li data-type='method'><a href="ISet.html#remove">remove</a></li><li data-type='method'><a href="ISet.html#toJS">toJS</a></li><li data-type='method'><a href="ISet.html#toJson">toJson</a></li></ul></li><li><a href="IString.html">IString</a><ul class='methods'><li data-type='method'><a href="IString.html#at">at</a></li><li data-type='method'><a href="IString.html#charAt">charAt</a></li><li data-type='method'><a href="IString.html#charCodeAt">charCodeAt</a></li><li data-type='method'><a href="IString.html#charIterator">charIterator</a></li><li data-type='method'><a href="IString.html#codePointAt">codePointAt</a></li><li data-type='method'><a href="IString.html#codePointLength">codePointLength</a></li><li data-type='method'><a href="IString.html#concat">concat</a></li><li data-type='method'><a href="IString.html#endsWith">endsWith</a></li><li data-type='method'><a href="IString.html#forEach">forEach</a></li><li data-type='method'><a href="IString.html#forEachCodePoint">forEachCodePoint</a></li><li data-type='method'><a href="IString.html#format">format</a></li><li data-type='method'><a href="IString.html#formatChoice">formatChoice</a></li><li data-type='method'><a href="IString.html#getLocale">getLocale</a></li><li data-type='method'><a href="IString.html#includes">includes</a></li><li data-type='method'><a href="IString.html#indexOf">indexOf</a></li><li data-type='method'><a href="IString.html#iterator">iterator</a></li><li data-type='method'><a href="IString.html#lastIndexOf">lastIndexOf</a></li><li data-type='method'><a href="IString.html#localeCompare">localeCompare</a></li><li data-type='method'><a href="IString.html#match">match</a></li><li data-type='method'><a href="IString.html#matchAll">matchAll</a></li><li data-type='method'><a href="IString.html#normalize">normalize</a></li><li data-type='method'><a href="IString.html#padEnd">padEnd</a></li><li data-type='method'><a href="IString.html#padStart">padStart</a></li><li data-type='method'><a href="IString.html#repeat">repeat</a></li><li data-type='method'><a href="IString.html#replace">replace</a></li><li data-type='method'><a href="IString.html#replaceAll">replaceAll</a></li><li data-type='method'><a href="IString.html#search">search</a></li><li data-type='method'><a href="IString.html#slice">slice</a></li><li data-type='method'><a href="IString.html#split">split</a></li><li data-type='method'><a href="IString.html#startsWith">startsWith</a></li><li data-type='method'><a href="IString.html#substr">substr</a></li><li data-type='method'><a href="IString.html#substring">substring</a></li><li data-type='method'><a href="IString.html#toLocaleLowerCase">toLocaleLowerCase</a></li><li data-type='method'><a href="IString.html#toLocaleUpperCase">toLocaleUpperCase</a></li><li data-type='method'><a href="IString.html#toLowerCase">toLowerCase</a></li><li data-type='method'><a href="IString.html#toString">toString</a></li><li data-type='method'><a href="IString.html#toUpperCase">toUpperCase</a></li><li data-type='method'><a href="IString.html#trim">trim</a></li><li data-type='method'><a href="IString.html#trimEnd">trimEnd</a></li><li data-type='method'><a href="IString.html#trimLeft">trimLeft</a></li><li data-type='method'><a href="IString.html#trimRight">trimRight</a></li><li data-type='method'><a href="IString.html#trimStart">trimStart</a></li><li data-type='method'><a href="IString.html#valueOf">valueOf</a></li><li data-type='method'><a href="IString.html#.@@Iterator">@@Iterator</a></li><li data-type='method'><a href="IString.html#.create">create</a></li><li data-type='method'><a href="IString.html#.fromCodePoint">fromCodePoint</a></li><li data-type='method'><a href="IString.html#.isSurrogate">isSurrogate</a></li><li data-type='method'><a href="IString.html#.toCodePoint">toCodePoint</a></li></ul></li><li><a href="IntermediateRepresentation.html">IntermediateRepresentation</a><ul class='methods'><li data-type='method'><a href="IntermediateRepresentation.html#getRepresentation">getRepresentation</a></li><li data-type='method'><a href="IntermediateRepresentation.html#getSourceFile">getSourceFile</a></li><li data-type='method'><a href="IntermediateRepresentation.html#getStats">getStats</a></li><li data-type='method'><a href="IntermediateRepresentation.html#getType">getType</a></li><li data-type='method'><a href="IntermediateRepresentation.html#isDirty">isDirty</a></li></ul></li><li><a href="JSParser.html">JSParser</a><ul class='methods'><li data-type='method'><a href="JSParser.html#parse">parse</a></li></ul></li><li><a href="JSXParser.html">JSXParser</a><ul class='methods'><li data-type='method'><a href="JSXParser.html#parse">parse</a></li></ul></li><li><a href="JavaEscaper.html">JavaEscaper</a><ul class='methods'><li data-type='method'><a href="JavaEscaper.html#escape">escape</a></li><li data-type='method'><a href="JavaEscaper.html#unescape">unescape</a></li></ul></li><li><a href="JavascriptEscaper.html">JavascriptEscaper</a><ul class='methods'><li data-type='method'><a href="JavascriptEscaper.html#escape">escape</a></li><li data-type='method'><a href="JavascriptEscaper.html#unescape">unescape</a></li></ul></li><li><a href="JsonEscaper.html">JsonEscaper</a><ul class='methods'><li data-type='method'><a href="JsonEscaper.html#escape">escape</a></li><li data-type='method'><a href="JsonEscaper.html#unescape">unescape</a></li></ul></li><li><a href="JsonFormatter.html">JsonFormatter</a><ul class='methods'><li data-type='method'><a href="JsonFormatter.html#format">format</a></li><li data-type='method'><a href="JsonFormatter.html#formatOutput">formatOutput</a></li></ul></li><li><a href="LineParser.html">LineParser</a><ul class='methods'><li data-type='method'><a href="LineParser.html#parse">parse</a></li></ul></li><li><a href="LineRegexpChecker.html">LineRegexpChecker</a><ul class='methods'><li data-type='method'><a href="LineRegexpChecker.html#match">match</a></li></ul></li><li><a href="LineSerializer.html">LineSerializer</a><ul class='methods'><li data-type='method'><a href="LineSerializer.html#serialize">serialize</a></li></ul></li><li><a href="LintableFile.html">LintableFile</a><ul class='methods'><li data-type='method'><a href="LintableFile.html#applyTransformers">applyTransformers</a></li><li data-type='method'><a href="LintableFile.html#findIssues">findIssues</a></li><li data-type='method'><a href="LintableFile.html#getFileType">getFileType</a></li><li data-type='method'><a href="LintableFile.html#getIRs">getIRs</a></li><li data-type='method'><a href="LintableFile.html#getLocaleFromPath">getLocaleFromPath</a></li><li data-type='method'><a href="LintableFile.html#getSourceFile">getSourceFile</a></li><li data-type='method'><a href="LintableFile.html#getStats">getStats</a></li><li data-type='method'><a href="LintableFile.html#isDirty">isDirty</a></li><li data-type='method'><a href="LintableFile.html#parse">parse</a></li><li data-type='method'><a href="LintableFile.html#setIRs">setIRs</a></li></ul></li><li><a href="Loader.html">Loader</a><ul class='methods'><li data-type='method'><a href="Loader.html#addPaths">addPaths</a></li><li data-type='method'><a href="Loader.html#getName">getName</a></li><li data-type='method'><a href="Loader.html#getPlatforms">getPlatforms</a></li><li data-type='method'><a href="Loader.html#loadFile">loadFile</a></li><li data-type='method'><a href="Loader.html#loadFiles">loadFiles</a></li><li data-type='method'><a href="Loader.html#setAsyncMode">setAsyncMode</a></li><li data-type='method'><a href="Loader.html#setSyncMode">setSyncMode</a></li><li data-type='method'><a href="Loader.html#supportsSync">supportsSync</a></li></ul></li><li><a href="Locale.html">Locale</a><ul class='methods'><li data-type='method'><a href="Locale.html#equals">equals</a></li><li data-type='method'><a href="Locale.html#getLangSpec">getLangSpec</a></li><li data-type='method'><a href="Locale.html#getLanguage">getLanguage</a></li><li data-type='method'><a href="Locale.html#getLanguageAlpha3">getLanguageAlpha3</a></li><li data-type='method'><a href="Locale.html#getRegion">getRegion</a></li><li data-type='method'><a href="Locale.html#getRegionAlpha3">getRegionAlpha3</a></li><li data-type='method'><a href="Locale.html#getScript">getScript</a></li><li data-type='method'><a href="Locale.html#getSpec">getSpec</a></li><li data-type='method'><a href="Locale.html#getVariant">getVariant</a></li><li data-type='method'><a href="Locale.html#isValid">isValid</a></li><li data-type='method'><a href="Locale.html#toString">toString</a></li><li data-type='method'><a href="Locale.html#.languageAlpha1ToAlpha3">languageAlpha1ToAlpha3</a></li><li data-type='method'><a href="Locale.html#.regionAlpha2ToAlpha3">regionAlpha2ToAlpha3</a></li></ul></li><li><a href="LocaleData.html">LocaleData</a><ul class='methods'><li data-type='method'><a href="LocaleData.html#getPath">getPath</a></li><li data-type='method'><a href="LocaleData.html#getRoots">getRoots</a></li><li data-type='method'><a href="LocaleData.html#isSync">isSync</a></li><li data-type='method'><a href="LocaleData.html#loadData">loadData</a></li><li data-type='method'><a href="LocaleData.html#.addGlobalRoot">addGlobalRoot</a></li><li data-type='method'><a href="LocaleData.html#.cacheData">cacheData</a></li><li data-type='method'><a href="LocaleData.html#.checkCache">checkCache</a></li><li data-type='method'><a href="LocaleData.html#.clearCache">clearCache</a></li><li data-type='method'><a href="LocaleData.html#.clearGlobalRoots">clearGlobalRoots</a></li><li data-type='method'><a href="LocaleData.html#.ensureLocale">ensureLocale</a></li><li data-type='method'><a href="LocaleData.html#.getGlobalRoots">getGlobalRoots</a></li><li data-type='method'><a href="LocaleData.html#.removeGlobalRoot">removeGlobalRoot</a></li></ul></li><li><a href="Location.html">Location</a><ul class='methods'><li data-type='method'><a href="Location.html#getLocation">getLocation</a></li></ul></li><li><a href="Node.html">Node</a><ul class='methods'><li data-type='method'><a href="Node.html#add">add</a></li><li data-type='method'><a href="Node.html#toArray">toArray</a></li><li data-type='method'><a href="Node.html#.fromArray">fromArray</a></li></ul></li><li></li><li><a href="NodeLoader.html">NodeLoader</a><ul class='methods'><li data-type='method'><a href="NodeLoader.html#addPaths">addPaths</a></li><li data-type='method'><a href="NodeLoader.html#getName">getName</a></li><li data-type='method'><a href="NodeLoader.html#getPlatforms">getPlatforms</a></li><li data-type='method'><a href="NodeLoader.html#loadFile">loadFile</a></li><li data-type='method'><a href="NodeLoader.html#loadFiles">loadFiles</a></li><li data-type='method'><a href="NodeLoader.html#setAsyncMode">setAsyncMode</a></li><li data-type='method'><a href="NodeLoader.html#setSyncMode">setSyncMode</a></li><li data-type='method'><a href="NodeLoader.html#supportsSync">supportsSync</a></li></ul></li><li><a href="NotImplementedError.html">NotImplementedError</a></li><li><a href="PHPEscaper.html">PHPEscaper</a><ul class='methods'><li data-type='method'><a href="PHPEscaper.html#escape">escape</a></li><li data-type='method'><a href="PHPEscaper.html#unescape">unescape</a></li></ul></li><li><a href="Parser.html">Parser</a><ul class='methods'><li data-type='method'><a href="Parser.html#getExtensions">getExtensions</a></li><li data-type='method'><a href="Parser.html#parse">parse</a></li></ul></li><li><a href="ParserManager.html">ParserManager</a><ul class='methods'><li data-type='method'><a href="ParserManager.html#add">add</a></li><li data-type='method'><a href="ParserManager.html#get">get</a></li><li data-type='method'><a href="ParserManager.html#getByName">getByName</a></li><li data-type='method'><a href="ParserManager.html#getDescriptions">getDescriptions</a></li><li data-type='method'><a href="ParserManager.html#getType">getType</a></li></ul></li><li><a href="PipelineElement.html">PipelineElement</a><ul class='methods'><li data-type='method'><a href="PipelineElement.html#getDescription">getDescription</a></li><li data-type='method'><a href="PipelineElement.html#getName">getName</a></li><li data-type='method'><a href="PipelineElement.html#getType">getType</a></li><li data-type='method'><a href="PipelineElement.html#init">init</a></li></ul></li><li><a href="Plugin.html">Plugin</a><ul class='methods'><li data-type='method'><a href="Plugin.html#getFixers">getFixers</a></li><li data-type='method'><a href="Plugin.html#getFormatters">getFormatters</a></li><li data-type='method'><a href="Plugin.html#getParsers">getParsers</a></li><li data-type='method'><a href="Plugin.html#getRuleSets">getRuleSets</a></li><li data-type='method'><a href="Plugin.html#getRules">getRules</a></li><li data-type='method'><a href="Plugin.html#getSerializers">getSerializers</a></li><li data-type='method'><a href="Plugin.html#getTransformers">getTransformers</a></li><li data-type='method'><a href="Plugin.html#init">init</a></li></ul></li><li><a href="PluginManager.html">PluginManager</a><ul class='methods'><li data-type='method'><a href="PluginManager.html#add">add</a></li><li data-type='method'><a href="PluginManager.html#getFixerManager">getFixerManager</a></li><li data-type='method'><a href="PluginManager.html#getFormatterManager">getFormatterManager</a></li><li data-type='method'><a href="PluginManager.html#getParserManager">getParserManager</a></li><li data-type='method'><a href="PluginManager.html#getRuleManager">getRuleManager</a></li><li data-type='method'><a href="PluginManager.html#getRuleSet">getRuleSet</a></li><li data-type='method'><a href="PluginManager.html#getSerializerManager">getSerializerManager</a></li><li data-type='method'><a href="PluginManager.html#getTransformerManager">getTransformerManager</a></li><li data-type='method'><a href="PluginManager.html#load">load</a></li></ul></li><li><a href="Project.html">Project</a><ul class='methods'><li data-type='method'><a href="Project.html#add">add</a></li><li data-type='method'><a href="Project.html#applyTransformers">applyTransformers</a></li><li data-type='method'><a href="Project.html#findIssues">findIssues</a></li><li data-type='method'><a href="Project.html#get">get</a></li><li data-type='method'><a href="Project.html#getExcludes">getExcludes</a></li><li data-type='method'><a href="Project.html#getFileType">getFileType</a></li><li data-type='method'><a href="Project.html#getFileTypeForPath">getFileTypeForPath</a></li><li data-type='method'><a href="Project.html#getFixerManager">getFixerManager</a></li><li data-type='method'><a href="Project.html#getIncludes">getIncludes</a></li><li data-type='method'><a href="Project.html#getLocales">getLocales</a></li><li data-type='method'><a href="Project.html#getName">getName</a></li><li data-type='method'><a href="Project.html#getOptions">getOptions</a></li><li data-type='method'><a href="Project.html#getParserManager">getParserManager</a></li><li data-type='method'><a href="Project.html#getPluginManager">getPluginManager</a></li><li data-type='method'><a href="Project.html#getRoot">getRoot</a></li><li data-type='method'><a href="Project.html#getRuleManager">getRuleManager</a></li><li data-type='method'><a href="Project.html#getScore">getScore</a></li><li data-type='method'><a href="Project.html#getSerializerManager">getSerializerManager</a></li><li data-type='method'><a href="Project.html#getSourceLocale">getSourceLocale</a></li><li data-type='method'><a href="Project.html#getTransformerManager">getTransformerManager</a></li><li data-type='method'><a href="Project.html#init">init</a></li><li data-type='method'><a href="Project.html#run">run</a></li><li data-type='method'><a href="Project.html#scan">scan</a></li><li data-type='method'><a href="Project.html#serialize">serialize</a></li></ul></li><li><a href="PropertiesParser.html">PropertiesParser</a><ul class='methods'><li data-type='method'><a href="PropertiesParser.html#parse">parse</a></li></ul></li><li><a href="PythonEscaper.html">PythonEscaper</a><ul class='methods'><li data-type='method'><a href="PythonEscaper.html#escape">escape</a></li><li data-type='method'><a href="PythonEscaper.html#unescape">unescape</a></li></ul></li><li><a href="RegexBasedEscaper.html">RegexBasedEscaper</a><ul class='methods'><li data-type='method'><a href="RegexBasedEscaper.html#escape">escape</a></li><li data-type='method'><a href="RegexBasedEscaper.html#unescape">unescape</a></li></ul></li><li><a href="Resource.html">Resource</a><ul class='methods'><li data-type='method'><a href="Resource.html#addInstance">addInstance</a></li><li data-type='method'><a href="Resource.html#cleanHashKey">cleanHashKey</a></li><li data-type='method'><a href="Resource.html#clearDirty">clearDirty</a></li><li data-type='method'><a href="Resource.html#escapeText">escapeText</a></li><li data-type='method'><a href="Resource.html#getAutoKey">getAutoKey</a></li><li data-type='method'><a href="Resource.html#getComment">getComment</a></li><li data-type='method'><a href="Resource.html#getContext">getContext</a></li><li data-type='method'><a href="Resource.html#getDNT">getDNT</a></li><li data-type='method'><a href="Resource.html#getDataType">getDataType</a></li><li data-type='method'><a href="Resource.html#getFlavor">getFlavor</a></li><li data-type='method'><a href="Resource.html#getId">getId</a></li><li data-type='method'><a href="Resource.html#getInstances">getInstances</a></li><li data-type='method'><a href="Resource.html#getKey">getKey</a></li><li data-type='method'><a href="Resource.html#getLocalize">getLocalize</a></li><li data-type='method'><a href="Resource.html#getLocation">getLocation</a></li><li data-type='method'><a href="Resource.html#getOrigin">getOrigin</a></li><li data-type='method'><a href="Resource.html#getPath">getPath</a></li><li data-type='method'><a href="Resource.html#getProject">getProject</a></li><li data-type='method'><a href="Resource.html#getResFile">getResFile</a></li><li data-type='method'><a href="Resource.html#getSource">getSource</a></li><li data-type='method'><a href="Resource.html#getSourceLocale">getSourceLocale</a></li><li data-type='method'><a href="Resource.html#getState">getState</a></li><li data-type='method'><a href="Resource.html#getTarget">getTarget</a></li><li data-type='method'><a href="Resource.html#getTargetLocale">getTargetLocale</a></li><li data-type='method'><a href="Resource.html#getType">getType</a></li><li data-type='method'><a href="Resource.html#hashKey">hashKey</a></li><li data-type='method'><a href="Resource.html#isDirty">isDirty</a></li><li data-type='method'><a href="Resource.html#isInstance">isInstance</a></li><li data-type='method'><a href="Resource.html#same">same</a></li><li data-type='method'><a href="Resource.html#setComment">setComment</a></li><li data-type='method'><a href="Resource.html#setDNT">setDNT</a></li><li data-type='method'><a href="Resource.html#setProject">setProject</a></li><li data-type='method'><a href="Resource.html#setSourceLocale">setSourceLocale</a></li><li data-type='method'><a href="Resource.html#setState">setState</a></li><li data-type='method'><a href="Resource.html#setTargetLocale">setTargetLocale</a></li></ul></li><li><a href="ResourceArray.html">ResourceArray</a><ul class='methods'><li data-type='method'><a href="ResourceArray.html#addSourceItem">addSourceItem</a></li><li data-type='method'><a href="ResourceArray.html#addTargetItem">addTargetItem</a></li><li data-type='method'><a href="ResourceArray.html#cleanHashKey">cleanHashKey</a></li><li data-type='method'><a href="ResourceArray.html#cleanHashKeyForTranslation">cleanHashKeyForTranslation</a></li><li data-type='method'><a href="ResourceArray.html#clone">clone</a></li><li data-type='method'><a href="ResourceArray.html#equals">equals</a></li><li data-type='method'><a href="ResourceArray.html#equals">equals</a></li><li data-type='method'><a href="ResourceArray.html#getSourceArray">getSourceArray</a></li><li data-type='method'><a href="ResourceArray.html#getSourceItem">getSourceItem</a></li><li data-type='method'><a href="ResourceArray.html#getTargetArray">getTargetArray</a></li><li data-type='method'><a href="ResourceArray.html#getTargetItem">getTargetItem</a></li><li data-type='method'><a href="ResourceArray.html#hashKey">hashKey</a></li><li data-type='method'><a href="ResourceArray.html#hashKeyForTranslation">hashKeyForTranslation</a></li><li data-type='method'><a href="ResourceArray.html#isInstance">isInstance</a></li><li data-type='method'><a href="ResourceArray.html#setSource">setSource</a></li><li data-type='method'><a href="ResourceArray.html#setTarget">setTarget</a></li><li data-type='method'><a href="ResourceArray.html#size">size</a></li><li data-type='method'><a href="ResourceArray.html#.hashKey">hashKey</a></li></ul></li><li><a href="ResourceCamelCase.html">ResourceCamelCase</a><ul class='methods'><li data-type='method'><a href="ResourceCamelCase.html#getFix">getFix</a></li><li data-type='method'><a href="ResourceCamelCase.html#isCamelCase">isCamelCase</a></li><li data-type='method'><a href="ResourceCamelCase.html#matchString">matchString</a></li></ul></li><li><a href="ResourceCompleteness.html">ResourceCompleteness</a><ul class='methods'><li data-type='method'><a href="ResourceCompleteness.html#matchString">matchString</a></li></ul></li><li><a href="ResourceDNTTerms.html">ResourceDNTTerms</a><ul class='methods'><li data-type='method'><a href="ResourceDNTTerms.html#matchString">matchString</a></li><li data-type='method'><a href="ResourceDNTTerms.html#.parseTermsFromJsonFile">parseTermsFromJsonFile</a></li><li data-type='method'><a href="ResourceDNTTerms.html#.parseTermsFromTxtFile">parseTermsFromTxtFile</a></li></ul></li><li><a href="ResourceEdgeWhitespace.html">ResourceEdgeWhitespace</a><ul class='methods'><li data-type='method'><a href="ResourceEdgeWhitespace.html#matchString">matchString</a></li></ul></li><li><a href="ResourceFix.html">ResourceFix</a><ul class='methods'><li data-type='method'><a href="ResourceFix.html#overlaps">overlaps</a></li></ul></li><li><a href="ResourceFixCommand.html">ResourceFixCommand</a><ul class='methods'><li data-type='method'><a href="ResourceFixCommand.html#overlaps">overlaps</a></li></ul></li><li><a href="ResourceICUPluralTranslation.html">ResourceICUPluralTranslation</a><ul class='methods'><li data-type='method'><a href="ResourceICUPluralTranslation.html#matchString">matchString</a></li></ul></li><li><a href="ResourceICUPlurals.html">ResourceICUPlurals</a></li><li><a href="ResourceKebabCase.html">ResourceKebabCase</a><ul class='methods'><li data-type='method'><a href="ResourceKebabCase.html#getFix">getFix</a></li><li data-type='method'><a href="ResourceKebabCase.html#isKebabCase">isKebabCase</a></li><li data-type='method'><a href="ResourceKebabCase.html#matchString">matchString</a></li></ul></li><li><a href="ResourceMatcher.html">ResourceMatcher</a><ul class='methods'><li data-type='method'><a href="ResourceMatcher.html#checkString">checkString</a></li></ul></li><li><a href="ResourceMetadataFixCommand.html">ResourceMetadataFixCommand</a><ul class='methods'><li data-type='method'><a href="ResourceMetadataFixCommand.html#apply">apply</a></li><li data-type='method'><a href="ResourceMetadataFixCommand.html#overlaps">overlaps</a></li></ul></li><li><a href="ResourceNoTranslation.html">ResourceNoTranslation</a><ul class='methods'><li data-type='method'><a href="ResourceNoTranslation.html#matchString">matchString</a></li></ul></li><li><a href="ResourcePlural.html">ResourcePlural</a><ul class='methods'><li data-type='method'><a href="ResourcePlural.html#addSourcePlural">addSourcePlural</a></li><li data-type='method'><a href="ResourcePlural.html#addTargetPlural">addTargetPlural</a></li><li data-type='method'><a href="ResourcePlural.html#cleanHashKey">cleanHashKey</a></li><li data-type='method'><a href="ResourcePlural.html#cleanHashKeyForTranslation">cleanHashKeyForTranslation</a></li><li data-type='method'><a href="ResourcePlural.html#clone">clone</a></li><li data-type='method'><a href="ResourcePlural.html#equals">equals</a></li><li data-type='method'><a href="ResourcePlural.html#getAllValidCategories">getAllValidCategories</a></li><li data-type='method'><a href="ResourcePlural.html#getCategories">getCategories</a></li><li data-type='method'><a href="ResourcePlural.html#getClasses">getClasses</a></li><li data-type='method'><a href="ResourcePlural.html#getPivots">getPivots</a></li><li data-type='method'><a href="ResourcePlural.html#getSourcePlural">getSourcePlural</a></li><li data-type='method'><a href="ResourcePlural.html#getSourcePlurals">getSourcePlurals</a></li><li data-type='method'><a href="ResourcePlural.html#getSourceStrings">getSourceStrings</a></li><li data-type='method'><a href="ResourcePlural.html#getTargetPlural">getTargetPlural</a></li><li data-type='method'><a href="ResourcePlural.html#getTargetPlurals">getTargetPlurals</a></li><li data-type='method'><a href="ResourcePlural.html#getTargetStrings">getTargetStrings</a></li><li data-type='method'><a href="ResourcePlural.html#hashKey">hashKey</a></li><li data-type='method'><a href="ResourcePlural.html#hashKeyForTranslation">hashKeyForTranslation</a></li><li data-type='method'><a href="ResourcePlural.html#isInstance">isInstance</a></li><li data-type='method'><a href="ResourcePlural.html#setSource">setSource</a></li><li data-type='method'><a href="ResourcePlural.html#setTarget">setTarget</a></li><li data-type='method'><a href="ResourcePlural.html#size">size</a></li><li data-type='method'><a href="ResourcePlural.html#.hashKey">hashKey</a></li></ul></li><li><a href="ResourceQuoteStyle.html">ResourceQuoteStyle</a><ul class='methods'><li data-type='method'><a href="ResourceQuoteStyle.html#matchString">matchString</a></li></ul></li><li><a href="ResourceRule.html">ResourceRule</a><ul class='methods'><li data-type='method'><a href="ResourceRule.html#getRuleType">getRuleType</a></li><li data-type='method'><a href="ResourceRule.html#match">match</a></li><li data-type='method'><a href="ResourceRule.html#matchString">matchString</a></li></ul></li><li><a href="ResourceSnakeCase.html">ResourceSnakeCase</a><ul class='methods'><li data-type='method'><a href="ResourceSnakeCase.html#getFix">getFix</a></li><li data-type='method'><a href="ResourceSnakeCase.html#isSnakeCase">isSnakeCase</a></li><li data-type='method'><a href="ResourceSnakeCase.html#matchString">matchString</a></li></ul></li><li><a href="ResourceSourceChecker.html">ResourceSourceChecker</a><ul class='methods'><li data-type='method'><a href="ResourceSourceChecker.html#checkString">checkString</a></li></ul></li><li><a href="ResourceSourceICUPluralCategories.html">ResourceSourceICUPluralCategories</a><ul class='methods'><li data-type='method'><a href="ResourceSourceICUPluralCategories.html#matchString">matchString</a></li></ul></li><li><a href="ResourceSourceICUPluralParams.html">ResourceSourceICUPluralParams</a><ul class='methods'><li data-type='method'><a href="ResourceSourceICUPluralParams.html#matchString">matchString</a></li></ul></li><li><a href="ResourceSourceICUPluralSyntax.html">ResourceSourceICUPluralSyntax</a><ul class='methods'><li data-type='method'><a href="ResourceSourceICUPluralSyntax.html#matchString">matchString</a></li></ul></li><li><a href="ResourceSourceICUUnexplainedParams.html">ResourceSourceICUUnexplainedParams</a><ul class='methods'><li data-type='method'><a href="ResourceSourceICUUnexplainedParams.html#matchString">matchString</a></li></ul></li><li><a href="ResourceStateChecker.html">ResourceStateChecker</a><ul class='methods'><li data-type='method'><a href="ResourceStateChecker.html#match">match</a></li></ul></li><li><a href="ResourceString.html">ResourceString</a><ul class='methods'><li data-type='method'><a href="ResourceString.html#cleanHashKey">cleanHashKey</a></li><li data-type='method'><a href="ResourceString.html#cleanHashKeyForTranslation">cleanHashKeyForTranslation</a></li><li data-type='method'><a href="ResourceString.html#clone">clone</a></li><li data-type='method'><a href="ResourceString.html#equals">equals</a></li><li data-type='method'><a href="ResourceString.html#hashKey">hashKey</a></li><li data-type='method'><a href="ResourceString.html#hashKeyForTranslation">hashKeyForTranslation</a></li><li data-type='method'><a href="ResourceString.html#isInstance">isInstance</a></li><li data-type='method'><a href="ResourceString.html#setSource">setSource</a></li><li data-type='method'><a href="ResourceString.html#setTarget">setTarget</a></li><li data-type='method'><a href="ResourceString.html#size">size</a></li><li data-type='method'><a href="ResourceString.html#.cleanHashKey">cleanHashKey</a></li><li data-type='method'><a href="ResourceString.html#.hashKey">hashKey</a></li></ul></li><li><a href="ResourceStringFixCommand.html">ResourceStringFixCommand</a><ul class='methods'><li data-type='method'><a href="ResourceStringFixCommand.html#overlaps">overlaps</a></li></ul></li><li><a href="ResourceStringLocator.html">ResourceStringLocator</a><ul class='methods'><li data-type='method'><a href="ResourceStringLocator.html#getContent">getContent</a></li><li data-type='method'><a href="ResourceStringLocator.html#getHash">getHash</a></li><li data-type='method'><a href="ResourceStringLocator.html#isSameAs">isSameAs</a></li><li data-type='method'><a href="ResourceStringLocator.html#setContent">setContent</a></li></ul></li><li><a href="ResourceTargetChecker.html">ResourceTargetChecker</a><ul class='methods'><li data-type='method'><a href="ResourceTargetChecker.html#checkString">checkString</a></li></ul></li><li><a href="ResourceUniqueKeys.html">ResourceUniqueKeys</a><ul class='methods'><li data-type='method'><a href="ResourceUniqueKeys.html#match">match</a></li></ul></li><li><a href="ResourceXML.html">ResourceXML</a><ul class='methods'><li data-type='method'><a href="ResourceXML.html#matchString">matchString</a></li></ul></li><li><a href="ResourceXliff.html">ResourceXliff</a><ul class='methods'><li data-type='method'><a href="ResourceXliff.html#getLines">getLines</a></li><li data-type='method'><a href="ResourceXliff.html#getVersion">getVersion</a></li><li data-type='method'><a href="ResourceXliff.html#parse">parse</a></li><li data-type='method'><a href="ResourceXliff.html#size">size</a></li></ul></li><li><a href="Result.html">Result</a></li><li><a href="Rule.html">Rule</a><ul class='methods'><li data-type='method'><a href="Rule.html#getDescription">getDescription</a></li><li data-type='method'><a href="Rule.html#getLink">getLink</a></li><li data-type='method'><a href="Rule.html#getName">getName</a></li><li data-type='method'><a href="Rule.html#getRuleType">getRuleType</a></li><li data-type='method'><a href="Rule.html#getSourceLocale">getSourceLocale</a></li><li data-type='method'><a href="Rule.html#match">match</a></li></ul></li><li><a href="RuleManager.html">RuleManager</a><ul class='methods'><li data-type='method'><a href="RuleManager.html#add">add</a></li><li data-type='method'><a href="RuleManager.html#addRuleSetDefinition">addRuleSetDefinition</a></li><li data-type='method'><a href="RuleManager.html#addRuleSetDefinitions">addRuleSetDefinitions</a></li><li data-type='method'><a href="RuleManager.html#get">get</a></li><li data-type='method'><a href="RuleManager.html#getDescriptions">getDescriptions</a></li><li data-type='method'><a href="RuleManager.html#getRuleSetDefinition">getRuleSetDefinition</a></li><li data-type='method'><a href="RuleManager.html#getRuleSetDefinitions">getRuleSetDefinitions</a></li><li data-type='method'><a href="RuleManager.html#getRules">getRules</a></li><li data-type='method'><a href="RuleManager.html#size">size</a></li><li data-type='method'><a href="RuleManager.html#sizeRuleSetDefinitions">sizeRuleSetDefinitions</a></li></ul></li><li><a href="RuleSet.html">RuleSet</a><ul class='methods'><li data-type='method'><a href="RuleSet.html#add">add</a></li><li data-type='method'><a href="RuleSet.html#addRule">addRule</a></li><li data-type='method'><a href="RuleSet.html#getRule">getRule</a></li><li data-type='method'><a href="RuleSet.html#getRules">getRules</a></li><li data-type='method'><a href="RuleSet.html#getSize">getSize</a></li><li data-type='method'><a href="RuleSet.html#removeRule">removeRule</a></li></ul></li><li><a href="Serializer.html">Serializer</a><ul class='methods'><li data-type='method'><a href="Serializer.html#serialize">serialize</a></li></ul></li><li><a href="SerializerManager.html">SerializerManager</a><ul class='methods'><li data-type='method'><a href="SerializerManager.html#add">add</a></li><li data-type='method'><a href="SerializerManager.html#get">get</a></li><li data-type='method'><a href="SerializerManager.html#getDescriptions">getDescriptions</a></li><li data-type='method'><a href="SerializerManager.html#getSerializers">getSerializers</a></li><li data-type='method'><a href="SerializerManager.html#size">size</a></li></ul></li><li><a href="SmartyEscaper.html">SmartyEscaper</a><ul class='methods'><li data-type='method'><a href="SmartyEscaper.html#escape">escape</a></li><li data-type='method'><a href="SmartyEscaper.html#unescape">unescape</a></li></ul></li><li><a href="SourceFile.html">SourceFile</a><ul class='methods'><li data-type='method'><a href="SourceFile.html#getContent">getContent</a></li><li data-type='method'><a href="SourceFile.html#getLength">getLength</a></li><li data-type='method'><a href="SourceFile.html#getLines">getLines</a></li><li data-type='method'><a href="SourceFile.html#getPath">getPath</a></li><li data-type='method'><a href="SourceFile.html#getRaw">getRaw</a></li><li data-type='method'><a href="SourceFile.html#getType">getType</a></li><li data-type='method'><a href="SourceFile.html#isDirty">isDirty</a></li><li data-type='method'><a href="SourceFile.html#read">read</a></li><li data-type='method'><a href="SourceFile.html#setLines">setLines</a></li><li data-type='method'><a href="SourceFile.html#write">write</a></li></ul></li><li><a href="SourceRegexpChecker.html">SourceRegexpChecker</a><ul class='methods'><li data-type='method'><a href="SourceRegexpChecker.html#match">match</a></li></ul></li><li><a href="StringFixCommand_StringFixCommand.html">StringFixCommand#StringFixCommand</a></li><li><a href="StringParser.html">StringParser</a><ul class='methods'><li data-type='method'><a href="StringParser.html#parse">parse</a></li><li data-type='method'><a href="StringParser.html#write">write</a></li></ul></li><li><a href="StringSerializer.html">StringSerializer</a><ul class='methods'><li data-type='method'><a href="StringSerializer.html#serialize">serialize</a></li></ul></li><li><a href="SwiftEscaper.html">SwiftEscaper</a><ul class='methods'><li data-type='method'><a href="SwiftEscaper.html#escape">escape</a></li><li data-type='method'><a href="SwiftEscaper.html#unescape">unescape</a></li></ul></li><li><a href="TMX.html">TMX</a><ul class='methods'><li data-type='method'><a href="TMX.html#addProperty">addProperty</a></li><li data-type='method'><a href="TMX.html#addResource">addResource</a></li><li data-type='method'><a href="TMX.html#addTranslationUnit">addTranslationUnit</a></li><li data-type='method'><a href="TMX.html#addTranslationUnits">addTranslationUnits</a></li><li data-type='method'><a href="TMX.html#deserialize">deserialize</a></li><li data-type='method'><a href="TMX.html#diff">diff</a></li><li data-type='method'><a href="TMX.html#getPath">getPath</a></li><li data-type='method'><a href="TMX.html#getProperties">getProperties</a></li><li data-type='method'><a href="TMX.html#getSegmentationType">getSegmentationType</a></li><li data-type='method'><a href="TMX.html#getTranslationUnits">getTranslationUnits</a></li><li data-type='method'><a href="TMX.html#getVersion">getVersion</a></li><li data-type='method'><a href="TMX.html#load">load</a></li><li data-type='method'><a href="TMX.html#merge">merge</a></li><li data-type='method'><a href="TMX.html#segmentString">segmentString</a></li><li data-type='method'><a href="TMX.html#serialize">serialize</a></li><li data-type='method'><a href="TMX.html#setPath">setPath</a></li><li data-type='method'><a href="TMX.html#setProperties">setProperties</a></li><li data-type='method'><a href="TMX.html#size">size</a></li><li data-type='method'><a href="TMX.html#split">split</a></li><li data-type='method'><a href="TMX.html#write">write</a></li></ul></li><li><a href="TSXParser.html">TSXParser</a><ul class='methods'><li data-type='method'><a href="TSXParser.html#parse">parse</a></li></ul></li><li><a href="Transformer.html">Transformer</a><ul class='methods'><li data-type='method'><a href="Transformer.html#transform">transform</a></li></ul></li><li><a href="TransformerManager.html">TransformerManager</a><ul class='methods'><li data-type='method'><a href="TransformerManager.html#add">add</a></li><li data-type='method'><a href="TransformerManager.html#get">get</a></li><li data-type='method'><a href="TransformerManager.html#getDescriptions">getDescriptions</a></li><li data-type='method'><a href="TransformerManager.html#getTransformers">getTransformers</a></li><li data-type='method'><a href="TransformerManager.html#size">size</a></li></ul></li><li><a href="TranslationSet.html">TranslationSet</a><ul class='methods'><li data-type='method'><a href="TranslationSet.html#add">add</a></li><li data-type='method'><a href="TranslationSet.html#addAll">addAll</a></li><li data-type='method'><a href="TranslationSet.html#addSet">addSet</a></li><li data-type='method'><a href="TranslationSet.html#clear">clear</a></li><li data-type='method'><a href="TranslationSet.html#diff">diff</a></li><li data-type='method'><a href="TranslationSet.html#get">get</a></li><li data-type='method'><a href="TranslationSet.html#getAll">getAll</a></li><li data-type='method'><a href="TranslationSet.html#getBy">getBy</a></li><li data-type='method'><a href="TranslationSet.html#getBySource">getBySource</a></li><li data-type='method'><a href="TranslationSet.html#getClean">getClean</a></li><li data-type='method'><a href="TranslationSet.html#getContexts">getContexts</a></li><li data-type='method'><a href="TranslationSet.html#getLocales">getLocales</a></li><li data-type='method'><a href="TranslationSet.html#getProjects">getProjects</a></li><li data-type='method'><a href="TranslationSet.html#isDirty">isDirty</a></li><li data-type='method'><a href="TranslationSet.html#remove">remove</a></li><li data-type='method'><a href="TranslationSet.html#setClean">setClean</a></li><li data-type='method'><a href="TranslationSet.html#size">size</a></li></ul></li><li><a href="TranslationUnit.html">TranslationUnit</a><ul class='methods'><li data-type='method'><a href="TranslationUnit.html#addProperties">addProperties</a></li><li data-type='method'><a href="TranslationUnit.html#addVariant">addVariant</a></li><li data-type='method'><a href="TranslationUnit.html#addVariants">addVariants</a></li><li data-type='method'><a href="TranslationUnit.html#clone">clone</a></li><li data-type='method'><a href="TranslationUnit.html#clone">clone</a></li><li data-type='method'><a href="TranslationUnit.html#getProperties">getProperties</a></li><li data-type='method'><a href="TranslationUnit.html#getVariants">getVariants</a></li><li data-type='method'><a href="TranslationUnit.html#hashKey">hashKey</a></li></ul></li><li></li><li><a href="TranslationVariant.html">TranslationVariant</a><ul class='methods'><li data-type='method'><a href="TranslationVariant.html#hashKey">hashKey</a></li></ul></li><li><a href="TrieNode.html">TrieNode</a></li><li><a href="URIEscaper.html">URIEscaper</a><ul class='methods'><li data-type='method'><a href="URIEscaper.html#escape">escape</a></li><li data-type='method'><a href="URIEscaper.html#unescape">unescape</a></li></ul></li><li><a href="WebpackLoader.html">WebpackLoader</a><ul class='methods'><li data-type='method'><a href="WebpackLoader.html#addPaths">addPaths</a></li><li data-type='method'><a href="WebpackLoader.html#getName">getName</a></li><li data-type='method'><a href="WebpackLoader.html#getPlatforms">getPlatforms</a></li><li data-type='method'><a href="WebpackLoader.html#loadFile">loadFile</a></li><li data-type='method'><a href="WebpackLoader.html#loadFiles">loadFiles</a></li><li data-type='method'><a href="WebpackLoader.html#setAsyncMode">setAsyncMode</a></li><li data-type='method'><a href="WebpackLoader.html#setSyncMode">setSyncMode</a></li><li data-type='method'><a href="WebpackLoader.html#supportsSync">supportsSync</a></li></ul></li><li><a href="Xliff.html">Xliff</a><ul class='methods'><li data-type='method'><a href="Xliff.html#addTranslationUnits">addTranslationUnits</a></li><li data-type='method'><a href="Xliff.html#clear">clear</a></li><li data-type='method'><a href="Xliff.html#deserialize">deserialize</a></li><li data-type='method'><a href="Xliff.html#getBytes">getBytes</a></li><li data-type='method'><a href="Xliff.html#getLines">getLines</a></li><li data-type='method'><a href="Xliff.html#getTranslationUnits">getTranslationUnits</a></li><li data-type='method'><a href="Xliff.html#getVersion">getVersion</a></li><li data-type='method'><a href="Xliff.html#serialize">serialize</a></li><li data-type='method'><a href="Xliff.html#size">size</a></li><li data-type='method'><a href="Xliff.html#toString1">toString1</a></li><li data-type='method'><a href="Xliff.html#toString2">toString2</a></li><li data-type='method'><a href="Xliff.html#toStringCustom">toStringCustom</a></li></ul></li><li><a href="XliffParser.html">XliffParser</a><ul class='methods'><li data-type='method'><a href="XliffParser.html#parse">parse</a></li></ul></li><li><a href="XliffSerializer.html">XliffSerializer</a><ul class='methods'><li data-type='method'><a href="XliffSerializer.html#serialize">serialize</a></li></ul></li><li><a href="Yaml.html">Yaml</a><ul class='methods'><li data-type='method'><a href="Yaml.html#addResource">addResource</a></li><li data-type='method'><a href="Yaml.html#addResources">addResources</a></li><li data-type='method'><a href="Yaml.html#deserialize">deserialize</a></li><li data-type='method'><a href="Yaml.html#getCommentPrefix">getCommentPrefix</a></li><li data-type='method'><a href="Yaml.html#getLocale">getLocale</a></li><li data-type='method'><a href="Yaml.html#getPath">getPath</a></li><li data-type='method'><a href="Yaml.html#getResource">getResource</a></li><li data-type='method'><a href="Yaml.html#getResources">getResources</a></li><li data-type='method'><a href="Yaml.html#getTranslationSet">getTranslationSet</a></li><li data-type='method'><a href="Yaml.html#serialize">serialize</a></li></ul></li><li><a href="module.html#.exports">module.exports</a></li><li></li><li></li><li></li><li></li><li></li><li></li></ul><h3>Modules</h3><ul><li><a href="module-JSUtils.html">JSUtils</a><ul class='methods'><li data-type='method'><a href="module-JSUtils.html#.callAll">callAll</a></li><li data-type='method'><a href="module-JSUtils.html#.deepCopy">deepCopy</a></li><li data-type='method'><a href="module-JSUtils.html#.extend">extend</a></li><li data-type='method'><a href="module-JSUtils.html#.fromCodePoint">fromCodePoint</a></li><li data-type='method'><a href="module-JSUtils.html#.hashCode">hashCode</a></li><li data-type='method'><a href="module-JSUtils.html#.indexOf">indexOf</a></li><li data-type='method'><a href="module-JSUtils.html#.isArray">isArray</a></li><li data-type='method'><a href="module-JSUtils.html#.isDate">isDate</a></li><li data-type='method'><a href="module-JSUtils.html#.isEmpty">isEmpty</a></li><li data-type='method'><a href="module-JSUtils.html#.mapString">mapString</a></li><li data-type='method'><a href="module-JSUtils.html#.merge">merge</a></li><li data-type='method'><a href="module-JSUtils.html#.pad">pad</a></li><li data-type='method'><a href="module-JSUtils.html#.shallowCopy">shallowCopy</a></li><li data-type='method'><a href="module-JSUtils.html#.toCodePoint">toCodePoint</a></li><li data-type='method'><a href="module-JSUtils.html#.toHexString">toHexString</a></li></ul></li><li><a href="module-MathUtils.html">MathUtils</a><ul class='methods'><li data-type='method'><a href="module-MathUtils.html#.amod">amod</a></li><li data-type='method'><a href="module-MathUtils.html#.ceiling">ceiling</a></li><li data-type='method'><a href="module-MathUtils.html#.down">down</a></li><li data-type='method'><a href="module-MathUtils.html#.floor">floor</a></li><li data-type='method'><a href="module-MathUtils.html#.halfdown">halfdown</a></li><li data-type='method'><a href="module-MathUtils.html#.halfeven">halfeven</a></li><li data-type='method'><a href="module-MathUtils.html#.halfodd">halfodd</a></li><li data-type='method'><a href="module-MathUtils.html#.halfup">halfup</a></li><li data-type='method'><a href="module-MathUtils.html#.log10">log10</a></li><li data-type='method'><a href="module-MathUtils.html#.mod">mod</a></li><li data-type='method'><a href="module-MathUtils.html#.shiftDecimal">shiftDecimal</a></li><li data-type='method'><a href="module-MathUtils.html#.significant">significant</a></li><li data-type='method'><a href="module-MathUtils.html#.signum">signum</a></li><li data-type='method'><a href="module-MathUtils.html#.up">up</a></li></ul></li><li><a href="module-Path.html">Path</a></li><li><a href="module-SearchUtils.html">SearchUtils</a><ul class='methods'><li data-type='method'><a href="module-SearchUtils.html#.bisectionSearch">bisectionSearch</a></li><li data-type='method'><a href="module-SearchUtils.html#.bsearch">bsearch</a></li></ul></li><li><a href="module-Utils.html">Utils</a><ul class='methods'><li data-type='method'><a href="module-Utils.html#.coelesce">coelesce</a></li><li data-type='method'><a href="module-Utils.html#.findMember">findMember</a></li><li data-type='method'><a href="module-Utils.html#.getLocFiles">getLocFiles</a></li><li data-type='method'><a href="module-Utils.html#.getSublocales">getSublocales</a></li><li data-type='method'><a href="module-Utils.html#.hexStringUTF16String">hexStringUTF16String</a></li><li data-type='method'><a href="module-Utils.html#.hexToChar">hexToChar</a></li><li data-type='method'><a href="module-Utils.html#.isArray">isArray</a></li><li data-type='method'><a href="module-Utils.html#.isMember">isMember</a></li><li data-type='method'><a href="module-Utils.html#.localeMergeAndPrune">localeMergeAndPrune</a></li><li data-type='method'><a href="module-Utils.html#.merge">merge</a></li><li data-type='method'><a href="module-Utils.html#.toHexString">toHexString</a></li></ul></li><li></li></ul><h3>Interfaces</h3><ul><li><a href="ConfigurationProvider.html">ConfigurationProvider</a></li><li><a href="ConfigurationProvider_loadConfiguration.html">ConfigurationProvider#loadConfiguration</a></li><li><a href="FileConfigurationProvider_loadConfiguration.html">FileConfigurationProvider#loadConfiguration</a></li><li><a href="FolderConfigurationProvider_loadConfiguration.html">FolderConfigurationProvider#loadConfiguration</a></li></ul><h3>Global</h3><ul><li><a href="global.html#DeclarativeRuleTypes">DeclarativeRuleTypes</a></li><li><a href="global.html#LoaderFactory">LoaderFactory</a></li><li><a href="global.html#ResultComparator">ResultComparator</a></li><li><a href="global.html#add">add</a></li><li><a href="global.html#addParam">addParam</a></li><li><a href="global.html#addText">addText</a></li><li><a href="global.html#cleanForm">cleanForm</a></li><li><a href="global.html#cleanString">cleanString</a></li><li><a href="global.html#clearLocaleData">clearLocaleData</a></li><li><a href="global.html#concatIntlAstText">concatIntlAstText</a></li><li><a href="global.html#containsActualText">containsActualText</a></li><li><a href="global.html#convertICUToPluralRes">convertICUToPluralRes</a></li><li><a href="global.html#convertPluralResToICU">convertPluralResToICU</a></li><li><a href="global.html#countSourceBytes">countSourceBytes</a></li><li><a href="global.html#countSourceWords">countSourceWords</a></li><li><a href="global.html#create">create</a></li><li><a href="global.html#defaultConfiguration">defaultConfiguration</a></li><li><a href="global.html#diff">diff</a></li><li><a href="global.html#escapeHex">escapeHex</a></li><li><a href="global.html#escapeRules">escapeRules</a></li><li><a href="global.html#escapeUnicode">escapeUnicode</a></li><li><a href="global.html#escapeUnicodeAsSurrogatePairs">escapeUnicodeAsSurrogatePairs</a></li><li><a href="global.html#escapeUnicodeAstral">escapeUnicodeAstral</a></li><li><a href="global.html#escapeUnicodeExtended">escapeUnicodeExtended</a></li><li><a href="global.html#escapeUnicodeWithBrackets">escapeUnicodeWithBrackets</a></li><li><a href="global.html#escaperFactory">escaperFactory</a></li><li><a href="global.html#formatPath">formatPath</a></li><li><a href="global.html#ge">ge</a></li><li><a href="global.html#get">get</a></li><li><a href="global.html#getAttribute">getAttribute</a></li><li><a href="global.html#getBidiClass">getBidiClass</a></li><li><a href="global.html#getBidiMirrored">getBidiMirrored</a></li><li><a href="global.html#getBrowser">getBrowser</a></li><li><a href="global.html#getCategory">getCategory</a></li><li><a href="global.html#getCharacter">getCharacter</a></li><li><a href="global.html#getChildrenByName">getChildrenByName</a></li><li><a href="global.html#getCombiningClass">getCombiningClass</a></li><li><a href="global.html#getCurrentLevel">getCurrentLevel</a></li><li><a href="global.html#getDecomposition">getDecomposition</a></li><li><a href="global.html#getDecompositionType">getDecompositionType</a></li><li><a href="global.html#getExtra">getExtra</a></li><li><a href="global.html#getLanguagePluralCategories">getLanguagePluralCategories</a></li><li><a href="global.html#getLine">getLine</a></li><li><a href="global.html#getLocale">getLocale</a></li><li><a href="global.html#getLocaleData">getLocaleData</a></li><li><a href="global.html#getLocaleFromPath">getLocaleFromPath</a></li><li><a href="global.html#getMapping">getMapping</a></li><li><a href="global.html#getMinimalString">getMinimalString</a></li><li><a href="global.html#getName">getName</a></li><li><a href="global.html#getNumericType">getNumericType</a></li><li><a href="global.html#getNumericValue">getNumericValue</a></li><li><a href="global.html#getParam">getParam</a></li><li><a href="global.html#getPlatform">getPlatform</a></li><li><a href="global.html#getPrefix">getPrefix</a></li><li><a href="global.html#getSimpleLowercase">getSimpleLowercase</a></li><li><a href="global.html#getSimpleTitlecase">getSimpleTitlecase</a></li><li><a href="global.html#getSimpleUppercase">getSimpleUppercase</a></li><li><a href="global.html#getString">getString</a></li><li><a href="global.html#getSuffix">getSuffix</a></li><li><a href="global.html#getText">getText</a></li><li><a href="global.html#getTextLength">getTextLength</a></li><li><a href="global.html#getTimeZone">getTimeZone</a></li><li><a href="global.html#globalVar">globalVar</a></li><li><a href="global.html#hashKey">hashKey</a></li><li><a href="global.html#ignoreTags">ignoreTags</a></li><li><a href="global.html#inRange">inRange</a></li><li><a href="global.html#isCamelCase">isCamelCase</a></li><li><a href="global.html#isEmpty">isEmpty</a></li><li><a href="global.html#isGlobal">isGlobal</a></li><li><a href="global.html#isKebabCase">isKebabCase</a></li><li><a href="global.html#isNode">isNode</a></li><li><a href="global.html#isRoot">isRoot</a></li><li><a href="global.html#isSnakeCase">isSnakeCase</a></li><li><a href="global.html#length">length</a></li><li><a href="global.html#localizableAttributes">localizableAttributes</a></li><li><a href="global.html#merge">merge</a></li><li><a href="global.html#nonBreakingTags">nonBreakingTags</a></li><li><a href="global.html#objectMap">objectMap</a></li><li><a href="global.html#parsePath">parsePath</a></li><li><a href="global.html#pluralCategories">pluralCategories</a></li><li><a href="global.html#pop">pop</a></li><li><a href="global.html#promisifyFunction">promisifyFunction</a></li><li><a href="global.html#push">push</a></li><li><a href="global.html#registerLoader">registerLoader</a></li><li><a href="global.html#scan">scan</a></li><li><a href="global.html#scanModule">scanModule</a></li><li><a href="global.html#scanResources">scanResources</a></li><li><a href="global.html#scanString">scanString</a></li><li><a href="global.html#selfClosingTags">selfClosingTags</a></li><li><a href="global.html#setLocale">setLocale</a></li><li><a href="global.html#setTimeZone">setTimeZone</a></li><li><a href="global.html#top">top</a></li><li><a href="global.html#typeMap">typeMap</a></li><li><a href="global.html#unescapeHex">unescapeHex</a></li><li><a href="global.html#unescapeOctal">unescapeOctal</a></li><li><a href="global.html#unescapeRules">unescapeRules</a></li><li><a href="global.html#unescapeUnicode">unescapeUnicode</a></li><li><a href="global.html#unescapeUnicodeExtended">unescapeUnicodeExtended</a></li><li><a href="global.html#unescapeUnicodeWithBrackets">unescapeUnicodeWithBrackets</a></li><li><a href="global.html#unindent">unindent</a></li><li><a href="global.html#walk">walk</a></li><li><a href="global.html#withVisibleWhitespace">withVisibleWhitespace</a></li></ul>
+    
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">IString</h1>
+    
+
+    
+
+
+
+
+<section>
+
+<header>
+    
+        <h2>
+        
+            IString
+        
+        </h2>
+        
+            <div class="class-description usertext"><p>Create a new ilib string instance. This string inherits from and
+extends the Javascript String class. It can be
+used almost anywhere that a normal Javascript string is used, though in
+some instances you will need to call the #toString method when
+a built-in Javascript string is needed. The formatting methods are
+methods that are not in the intrinsic String class and are most useful
+when localizing strings in an app or web site in combination with
+the ResBundle class.<p></p>
+<p>This class is named IString (&quot;ilib string&quot;) so as not to conflict with the
+built-in Javascript String class.</p></div>
+        
+    
+</header>
+
+<article>
+    
+        <div class="container-overview">
+        
+            
+
+    
+    <h2>Constructor</h2>
+    
+
+    <h4 class="name" id="IString"><span class="type-signature"></span>new IString<span class="signature">(string, options<span class="signature-attributes">opt</span>)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Create a new ilib string instance.<p></p>
+<p>The options may contain the following properties:</p>
+<ul>
+<li>locale - the locale of this string
+</ul></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line76">line 76</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>string</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+|
+
+<span class="param-type"><a href="IString.html">IString</a></span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>initialize this instance with this string</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>options</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">options</span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>options governing the construction of this instance</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        </div>
+    
+
+    
+
+    
+
+    
+    
+    
+
+     
+
+    
+
+    
+
+    
+        <h3 class="subsection-title">Methods</h3>
+
+        
+            
+
+    
+
+    <h4 class="name" id="at"><span class="type-signature"></span>at<span class="signature">(offset)</span><span class="type-signature"> &rarr; {<a href="IString.html">IString</a>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Same as String.at()</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line945">line 945</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>offset</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>offset into the string</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>the single UTF-16 code point located at the specified offset</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type"><a href="IString.html">IString</a></span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="charAt"><span class="type-signature"></span>charAt<span class="signature">(index)</span><span class="type-signature"> &rarr; {<a href="IString.html">IString</a>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Same as String.charAt()</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line954">line 954</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>index</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>the index of the character being sought</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>the character at the given index</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type"><a href="IString.html">IString</a></span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="charCodeAt"><span class="type-signature"></span>charCodeAt<span class="signature">(index)</span><span class="type-signature"> &rarr; {number}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Same as String.charCodeAt(). This only reports on
+2-byte UCS-2 Unicode values, and does not take into
+account supplementary characters encoded in UTF-16.
+If you would like to take account of those characters,
+use codePointAt() instead.</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line968">line 968</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>index</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>the index of the character being sought</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>the character code of the character at the
+given index in the string</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">number</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="charIterator"><span class="type-signature"></span>charIterator<span class="signature">()</span><span class="type-signature"> &rarr; {Object}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Return an iterator that will step through all of the characters
+in the string one at a time, taking
+care to step through the surrogate pairs in UTF-16 encoding
+properly.<p></p>
+<p>The standard Javascript String's charAt() method only
+returns information about a particular 16-bit character in the
+UTF-16 encoding scheme.
+If the index is pointing to a low- or high-surrogate character,
+it will return that surrogate character rather
+than the surrogate pair which represents a character
+in the supplementary planes.<p></p>
+<p>The iterator instance returned has two methods, hasNext() which
+returns true if the iterator has more characters to iterate through,
+and next() which returns the next character.<p></p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line1497">line 1497</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>an iterator
+that iterates through all the characters in the string</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Object</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="codePointAt"><span class="type-signature"></span>codePointAt<span class="signature">(index)</span><span class="type-signature"> &rarr; {number}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Return the code point at the given index when the string is viewed
+as an array of code points. If the index is beyond the end of the
+array of code points or if the index is negative, -1 is returned.</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line994">line 994</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>index</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>index of the code point</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>code point of the character at the given index into
+the string</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">number</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="codePointLength"><span class="type-signature"></span>codePointLength<span class="signature">()</span><span class="type-signature"> &rarr; {number}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Return the number of code points in this string. This may be different
+than the number of characters, as the UTF-16 encoding that Javascript
+uses for its basis returns surrogate pairs separately. Two 2-byte
+surrogate characters together make up one character/code point in
+the supplementary character planes. If your string contains no
+characters in the supplementary planes, this method will return the
+same thing as the length() method.</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line1541">line 1541</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>the number of code points in this string</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">number</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="concat"><span class="type-signature"></span>concat<span class="signature">(strings)</span><span class="type-signature"> &rarr; {<a href="IString.html">IString</a>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Same as String.concat()</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line1006">line 1006</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>strings</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>strings to concatenate to the current one</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>a concatenation of the given strings</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type"><a href="IString.html">IString</a></span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="endsWith"><span class="type-signature"></span>endsWith<span class="signature">()</span><span class="type-signature"> &rarr; {boolean}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Same as String.endsWith().</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line1015">line 1015</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>true if the given characters are found at
+the end of the string, and false otherwise</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">boolean</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="forEach"><span class="type-signature"></span>forEach<span class="signature">(callback)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Call the callback with each character in the string one at
+a time, taking care to step through the surrogate pairs in
+the UTF-16 encoding properly.<p></p>
+<p>The standard Javascript String's charAt() method only
+returns a particular 16-bit character in the
+UTF-16 encoding scheme.
+If the index to charAt() is pointing to a low- or
+high-surrogate character,
+it will return the surrogate character rather
+than the the character
+in the supplementary planes that the two surrogates together
+encode. This function will call the callback with the full
+character, making sure to join two
+surrogates into one character in the supplementary planes
+where necessary.<p></p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line1350">line 1350</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>callback</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">function</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>a callback function to call with each
+full character in the current string</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="forEachCodePoint"><span class="type-signature"></span>forEachCodePoint<span class="signature">(callback)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Call the callback with each numeric code point in the string one at
+a time, taking care to step through the surrogate pairs in
+the UTF-16 encoding properly.<p></p>
+<p>The standard Javascript String's charCodeAt() method only
+returns information about a particular 16-bit character in the
+UTF-16 encoding scheme.
+If the index to charCodeAt() is pointing to a low- or
+high-surrogate character,
+it will return the code point of the surrogate character rather
+than the code point of the character
+in the supplementary planes that the two surrogates together
+encode. This function will call the callback with the full
+code point of each character, making sure to join two
+surrogates into one code point in the supplementary planes.<p></p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line1379">line 1379</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>callback</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">function</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>a callback function to call with each
+code point in the current string</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="format"><span class="type-signature"></span>format<span class="signature">(params)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Format this string instance as a message, replacing the parameters with
+the given values.<p></p>
+<p>The string can contain any text that a regular Javascript string can
+contain. Replacement parameters have the syntax:</p>
+<pre>
+{name}
+</pre>
+<p>Where &quot;name&quot; can be any string surrounded by curly brackets. The value of
+&quot;name&quot; is taken from the parameters argument.<p></p>
+<p>Example:</p>
+<pre>
+const str = new IString("There are {num} objects.");
+console.log(str.format({
+  num: 12
+});
+</pre>
+<p>Would give the output:</p>
+<pre>
+There are 12 objects.
+</pre>
+<p>If a property is missing from the parameter block, the replacement
+parameter substring is left untouched in the string, and a different
+set of parameters may be applied a second time. This way, different
+parts of the code may format different parts of the message that they
+happen to know about.<p></p>
+<p>Example:</p>
+<pre>
+const str = new IString("There are {num} objects in the {container}.");
+console.log(str.format({
+  num: 12
+});
+</pre>
+<p>Would give the output:<p></p>
+<pre>
+There are 12 objects in the {container}.
+</pre>
+<p>The result can then be formatted again with a different parameter block that
+specifies a value for the container property.</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line660">line 660</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>params</code></td>
+            
+
+            <td class="type">
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>a Javascript object containing values for the replacement
+parameters in the current string</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>a new IString instance with as many replacement parameters filled
+out as possible with real values.</p>
+</div>
+
+
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="formatChoice"><span class="type-signature"></span>formatChoice<span class="signature">(argIndex, params)</span><span class="type-signature"> &rarr; {string}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Format a string as one of a choice of strings dependent on the value of
+a particular argument index or array of indices.<p></p>
+<p>The syntax of the choice string is as follows. The string contains a
+series of choices separated by a vertical bar character &quot;|&quot;. Each choice
+has a value or range of values to match followed by a hash character &quot;#&quot;
+followed by the string to use if the variable matches the criteria.<p></p>
+<p>Example string:</p>
+<pre>
+const num = 2;
+const str = new IString("0#There are no objects.|1#There is one object.|2#There are {number} objects.");
+console.log(str.formatChoice(num, {
+  number: num
+}));
+</pre>
+<p>Gives the output:</p>
+<pre>
+"There are 2 objects."
+</pre>
+<p>The strings to format may contain replacement variables that will be formatted
+using the format() method above and the params argument as a source of values
+to use while formatting those variables.<p></p>
+<p>If the criterion for a particular choice is empty, that choice will be used
+as the default one for use when none of the other choice's criteria match.<p></p>
+<p>Example string:</p>
+<pre>
+const num = 22;
+const str = new IString("0#There are no objects.|1#There is one object.|#There are {number} objects.");
+console.log(str.formatChoice(num, {
+  number: num
+}));
+</pre>
+<p>Gives the output:</p>
+<pre>
+"There are 22 objects."
+</pre>
+<p>If multiple choice patterns can match a given argument index, the first one
+encountered in the string will be used. If no choice patterns match the
+argument index, then the default choice will be used. If there is no default
+choice defined, then this method will return an empty string.<p></p>
+<p><b>Special Syntax</b><p></p>
+<p>For any choice format string, all of the patterns in the string should be
+of a single type: numeric, boolean, or string/regexp. The type of the
+patterns is determined by the type of the argument index parameter.<p></p>
+<p>If the argument index is numeric, then some special syntax can be used
+in the patterns to match numeric ranges.<p></p>
+<ul>
+<li><i>&gt;x</i> - match any number that is greater than x
+<li><i>&gt;=x</i> - match any number that is greater than or equal to x
+<li><i>&lt;x</i> - match any number that is less than x
+<li><i>&lt;=x</i> - match any number that is less than or equal to x
+<li><i>start-end</i> - match any number in the range [start,end)
+<li><i>zero</i> - match any number in the class "zero". (See below for
+a description of number classes.)
+<li><i>one</i> - match any number in the class "one"
+<li><i>two</i> - match any number in the class "two"
+<li><i>few</i> - match any number in the class "few"
+<li><i>many</i> - match any number in the class "many"
+<li><i>other</i> - match any number in the other or default class
+</ul>
+<p>A number class defines a set of numbers that receive a particular syntax
+in the strings. For example, in Slovenian, integers ending in the digit
+&quot;1&quot; are in the &quot;one&quot; class, including 1, 21, 31, ... 101, 111, etc.
+Similarly, integers ending in the digit &quot;2&quot; are in the &quot;two&quot; class.
+Integers ending in the digits &quot;3&quot; or &quot;4&quot; are in the &quot;few&quot; class, and
+every other integer is handled by the default string.<p></p>
+<p>The definition of what numbers are included in a class is locale-dependent.
+They are defined in the data file plurals.json. If your string is in a
+different locale than the default for ilib, you should call the setLocale()
+method of the string instance before calling this method.<p></p>
+<p><b>Other Pattern Types</b><p></p>
+<p>If the argument index is a boolean, the string values &quot;true&quot; and &quot;false&quot;
+may appear as the choice patterns.<p></p>
+<p>If the argument index is of type string, then the choice patterns may contain
+regular expressions, or static strings as degenerate regexps.<p></p>
+<p><b>Multiple Indexes</b><p></p>
+<p>If you have 2 or more indexes to format into a string, you can pass them as
+an array. When you do that, the patterns to match should be a comma-separate
+list of patterns as per the rules above.<p></p>
+<p>Example string:</p>
+<pre>
+const str = new IString("zero,zero#There are no objects on zero pages.|one,one#There is 1 object on 1 page.|other,one#There are {number} objects on 1 page.|#There are {number} objects on {pages} pages.");
+const num = 4, pages = 1;
+console.log(str.formatChoice([num, pages], {
+  number: num,
+  pages: pages
+}));
+</pre>
+<p>Gives the output:<p></p>
+<pre>
+"There are 4 objects on 1 page."
+</pre>
+<p>Note that when there is a single index, you would typically leave the pattern blank to
+indicate the default choice. When there are multiple indices, sometimes one of the
+patterns has to be the default case when the other is not. Rather than leaving one or
+more of the patterns blank with commas that look out-of-place in the middle of it, you
+can use the word &quot;other&quot; to indicate a match with the default or other choice. The above example
+shows the use of the &quot;other&quot; pattern. That said, you are allowed to leave the pattern
+blank if you so choose. In the example above, the pattern for the third string could
+easily have been written as &quot;,one&quot; instead of &quot;other,one&quot; and the result will be the same.</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line877">line 877</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>argIndex</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">*</span>
+|
+
+<span class="param-type">Array.&lt;*></span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>The index into the choice array of the current parameter,
+or an array of indices</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>params</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Object</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>The hash of parameter values that replace the replacement
+variables in the string</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-throws">Throws:</h5>
+
+        
+
+    <div class="param-desc usertext">
+    
+        <p>&quot;syntax error in choice format pattern: &quot; if there is a syntax error</p>
+    
+    </div>
+
+
+    
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>the formatted string</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">string</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="getLocale"><span class="type-signature"></span>getLocale<span class="signature">()</span><span class="type-signature"> &rarr; {string}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Return the locale to use when processing choice formats. The locale
+affects how number classes are interpretted. In some cultures,
+the limit &quot;few&quot; maps to &quot;any integer that ends in the digits 2 to 9&quot; and
+in yet others, &quot;few&quot; maps to &quot;any integer that ends in the digits
+3 or 4&quot;.</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line1527">line 1527</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>localespec to use when processing choice
+formats with this string</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">string</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="includes"><span class="type-signature"></span>includes<span class="signature">(searchValue, start)</span><span class="type-signature"> &rarr; {boolean}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Same as String.includes()</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line1032">line 1032</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>searchValue</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>string to search for</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>start</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>index into the string to start searching, or
+undefined to search the entire string</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">boolean</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="indexOf"><span class="type-signature"></span>indexOf<span class="signature">(searchValue, start)</span><span class="type-signature"> &rarr; {number}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Same as String.indexOf()</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line1044">line 1044</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>searchValue</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>string to search for</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>start</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>index into the string to start searching, or
+undefined to search the entire string</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>index into the string of the string being sought,
+or -1 if the string is not found</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">number</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="iterator"><span class="type-signature"></span>iterator<span class="signature">()</span><span class="type-signature"> &rarr; {Object}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Return an iterator that will step through all of the characters
+in the string one at a time and return their code points, taking
+care to step through the surrogate pairs in UTF-16 encoding
+properly.<p></p>
+<p>The standard Javascript String's charCodeAt() method only
+returns information about a particular 16-bit character in the
+UTF-16 encoding scheme.
+If the index is pointing to a low- or high-surrogate character,
+it will return a code point of the surrogate character rather
+than the code point of the character
+in the supplementary planes that the two surrogates together
+encode.<p></p>
+<p>The iterator instance returned has two methods, hasNext() which
+returns true if the iterator has more code points to iterate through,
+and next() which returns the next code point as a number.<p></p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line1413">line 1413</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>an iterator
+that iterates through all the code points in the string</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Object</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="lastIndexOf"><span class="type-signature"></span>lastIndexOf<span class="signature">(searchValue, start)</span><span class="type-signature"> &rarr; {number}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Same as String.lastIndexOf()</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line1056">line 1056</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>searchValue</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>string to search for</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>start</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>index into the string to start searching, or
+undefined to search the entire string</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>index into the string of the string being sought,
+or -1 if the string is not found</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">number</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="localeCompare"><span class="type-signature"></span>localeCompare<span class="signature">(compareString, locales<span class="signature-attributes">opt</span>, options<span class="signature-attributes">opt</span>)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Same as String.localeCompare()</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line1066">line 1066</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>compareString</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>locales</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>options</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Object</span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="match"><span class="type-signature"></span>match<span class="signature">(regexp)</span><span class="type-signature"> &rarr; {Array.&lt;string>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Same as String.match()</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line1075">line 1075</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>regexp</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>the regular expression to match</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>an array of matches</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Array.&lt;string></span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="matchAll"><span class="type-signature"></span>matchAll<span class="signature">(regexp)</span><span class="type-signature"> &rarr; {iterator}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Same as String.matchAll()</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line1084">line 1084</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>regexp</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>the regular expression to match</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>an iterator of the matches</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">iterator</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="normalize"><span class="type-signature"></span>normalize<span class="signature">(form)</span><span class="type-signature"> &rarr; {<a href="IString.html">IString</a>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Same as String.normalize(). If this JS engine does not support
+this method, then you can use the NormString class of ilib
+to the same thing (albeit a little slower).</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line1096">line 1096</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>form</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>the name of the Unicode Normalization Form</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>the normalize version of the string</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type"><a href="IString.html">IString</a></span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="padEnd"><span class="type-signature"></span>padEnd<span class="signature">()</span><span class="type-signature"> &rarr; {<a href="IString.html">IString</a>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Same as String.padEnd().</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line1105">line 1105</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>a string of the specified length with the
+pad string applied at the end of the current string</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type"><a href="IString.html">IString</a></span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="padStart"><span class="type-signature"></span>padStart<span class="signature">()</span><span class="type-signature"> &rarr; {<a href="IString.html">IString</a>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Same as String.padStart().</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line1114">line 1114</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>a string of the specified length with the
+pad string applied at the end of the current string</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type"><a href="IString.html">IString</a></span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="repeat"><span class="type-signature"></span>repeat<span class="signature">()</span><span class="type-signature"> &rarr; {<a href="IString.html">IString</a>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Same as String.repeat().</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line1123">line 1123</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>a new string containing the specified number
+of copies of the given string</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type"><a href="IString.html">IString</a></span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="replace"><span class="type-signature"></span>replace<span class="signature">(searchValue, newValue)</span><span class="type-signature"> &rarr; {<a href="IString.html">IString</a>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Same as String.replace()</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line1134">line 1134</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>searchValue</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>a regular expression to search for</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>newValue</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>the string to replace the matches with</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>a new string with all the matches replaced
+with the new value</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type"><a href="IString.html">IString</a></span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="replaceAll"><span class="type-signature"></span>replaceAll<span class="signature">(searchValue, newValue)</span><span class="type-signature"> &rarr; {<a href="IString.html">IString</a>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Same as String.replaceAll()</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line1145">line 1145</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>searchValue</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>a regular expression to search for</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>newValue</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>the string to replace the matches with</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>a new string with all the matches replaced
+with the new value</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type"><a href="IString.html">IString</a></span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="search"><span class="type-signature"></span>search<span class="signature">(regexp)</span><span class="type-signature"> &rarr; {number}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Same as String.search()</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line1154">line 1154</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>regexp</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>the regular expression to search for</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>position of the match, or -1 for no match</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">number</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="slice"><span class="type-signature"></span>slice<span class="signature">(start, end)</span><span class="type-signature"> &rarr; {<a href="IString.html">IString</a>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Same as String.slice()</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line1165">line 1165</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>start</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>first character to include in the string</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>end</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>include all characters up to, but not including
+the end character</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>a slice of the current string</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type"><a href="IString.html">IString</a></span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="split"><span class="type-signature"></span>split<span class="signature">(separator, limit)</span><span class="type-signature"> &rarr; {Array.&lt;string>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Same as String.split()</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line1178">line 1178</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>separator</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>regular expression to match to find
+separations between the parts of the text</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>limit</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>maximum number of items in the final
+output array. Any items beyond that limit will be ignored.</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>the parts of the current string split
+by the separator</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Array.&lt;string></span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="startsWith"><span class="type-signature"></span>startsWith<span class="signature">()</span><span class="type-signature"> &rarr; {boolean}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Same as String.startsWith().</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line1187">line 1187</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>true if the given characters are found at
+the beginning of the string, and false otherwise</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">boolean</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="substr"><span class="type-signature"></span>substr<span class="signature">(start, length)</span><span class="type-signature"> &rarr; {<a href="IString.html">IString</a>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Same as String.substr()</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line1199">line 1199</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>start</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>the index of the character that should
+begin the returned substring</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>length</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>the number of characters to return after
+the start character.</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>the requested substring</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type"><a href="IString.html">IString</a></span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="substring"><span class="type-signature"></span>substring<span class="signature">(from, to)</span><span class="type-signature"> &rarr; {<a href="IString.html">IString</a>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Same as String.substring()</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line1219">line 1219</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>from</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>the index of the character that should
+begin the returned substring</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>to</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>the index where to stop the extraction. If
+omitted, extracts the rest of the string</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>the requested substring</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type"><a href="IString.html">IString</a></span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="toLocaleLowerCase"><span class="type-signature"></span>toLocaleLowerCase<span class="signature">()</span><span class="type-signature"> &rarr; {<a href="IString.html">IString</a>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Same as String.toLocaleLowerCase(). If the JS engine does not support this
+method, you can use the ilib CaseMapper class instead.</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line1230">line 1230</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>a new string representing the calling string
+converted to lower case, according to any locale-sensitive
+case mappings</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type"><a href="IString.html">IString</a></span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="toLocaleUpperCase"><span class="type-signature"></span>toLocaleUpperCase<span class="signature">()</span><span class="type-signature"> &rarr; {<a href="IString.html">IString</a>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Same as String.toLocaleUpperCase(). If the JS engine does not support this
+method, you can use the ilib CaseMapper class instead.</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line1241">line 1241</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>a new string representing the calling string
+converted to upper case, according to any locale-sensitive
+case mappings</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type"><a href="IString.html">IString</a></span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="toLowerCase"><span class="type-signature"></span>toLowerCase<span class="signature">()</span><span class="type-signature"> &rarr; {<a href="IString.html">IString</a>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Same as String.toLowerCase(). Note that this method is
+not locale-sensitive.</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line1251">line 1251</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>a string with all the characters
+lower-cased</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type"><a href="IString.html">IString</a></span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="toString"><span class="type-signature"></span>toString<span class="signature">()</span><span class="type-signature"> &rarr; {string}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Same as String.toString()</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line1259">line 1259</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>this instance as regular Javascript string</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">string</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="toUpperCase"><span class="type-signature"></span>toUpperCase<span class="signature">()</span><span class="type-signature"> &rarr; {<a href="IString.html">IString</a>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Same as String.toUpperCase(). Note that this method is
+not locale-sensitive. Use toLocaleUpperCase() instead
+to get locale-sensitive behaviour.</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line1270">line 1270</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>a string with all the characters
+upper-cased</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type"><a href="IString.html">IString</a></span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="trim"><span class="type-signature"></span>trim<span class="signature">()</span><span class="type-signature"> &rarr; {<a href="IString.html">IString</a>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Same as String.trim().</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line1279">line 1279</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>a new string representing the calling string stripped
+of whitespace from both ends.</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type"><a href="IString.html">IString</a></span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="trimEnd"><span class="type-signature"></span>trimEnd<span class="signature">()</span><span class="type-signature"> &rarr; {<a href="IString.html">IString</a>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Same as String.trimEnd().</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line1288">line 1288</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>a new string representing the calling string stripped
+of whitespace from its (right) end.</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type"><a href="IString.html">IString</a></span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="trimLeft"><span class="type-signature"></span>trimLeft<span class="signature">()</span><span class="type-signature"> &rarr; {<a href="IString.html">IString</a>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Same as String.trimLeft().</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line1325">line 1325</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>A new string representing the calling string stripped
+of whitespace from its beginning (left end).</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type"><a href="IString.html">IString</a></span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="trimRight"><span class="type-signature"></span>trimRight<span class="signature">()</span><span class="type-signature"> &rarr; {<a href="IString.html">IString</a>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Same as String.trimRight().</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line1316">line 1316</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>a new string representing the calling string stripped
+of whitespace from its (right) end.</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type"><a href="IString.html">IString</a></span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="trimStart"><span class="type-signature"></span>trimStart<span class="signature">()</span><span class="type-signature"> &rarr; {<a href="IString.html">IString</a>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Same as String.trimStart().</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line1297">line 1297</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>A new string representing the calling string stripped
+of whitespace from its beginning (left end).</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type"><a href="IString.html">IString</a></span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="valueOf"><span class="type-signature"></span>valueOf<span class="signature">()</span><span class="type-signature"> &rarr; {string}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Same as String.valueOf()</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line1305">line 1305</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>this instance as a regular Javascript string</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">string</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".@@Iterator"><span class="type-signature type-signature-generator, static">(generator, static) </span>@@Iterator<span class="signature">()</span><span class="type-signature"> &rarr; {String}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Implement the iterator protocol over the characters in the string
+as a generator function. This allows an IString to be used with
+the for..of operator:</p>
+<pre>
+const s = new IString("test");
+for (let ch of s) {
+    console.log(ch);
+}
+// prints:
+// t
+// e
+// s
+// t
+</pre>
+<p>It can also be used with the spread operator:</p>
+<pre>
+const s = new IString("test");
+console.log(`Chars are ${...s}`);
+// prints:
+// Chars are ['t','e','s','t']
+</pre>
+<p>This iterator properly skips over UTF-16 surrogate pairs and
+return the &quot;astral plane&quot; Unicode characters.</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line1432">line 1432</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+<h5 class="h5-yields">Yields:</h5>		
+		
+        
+<div class="param-desc">
+    a string containing each character.
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">String</span>
+
+
+
+    </dd>
+</dl>
+		
+    
+
+        
+            
+
+    
+
+    <h4 class="name" id=".create"><span class="type-signature type-signature-static">(static) </span>create<span class="signature">(locale, options)</span><span class="type-signature"> &rarr; {Promise}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Factory method to create a new instance of IString asynchronously.
+The parameters are the same as for the constructor, but it returns
+a <code>Promise</code> instead of the instance directly.</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line159">line 159</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>locale</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>the locale to get the info for</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>options</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Object</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>the same objects you would send to a constructor</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>a promise to load a LocaleInfo instance. The resolved
+value of the promise is the new instance of LocaleInfo,</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Promise</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".fromCodePoint"><span class="type-signature type-signature-static">(static) </span>fromCodePoint<span class="signature">(codepoint)</span><span class="type-signature"> &rarr; {string}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Convert a UCS-4 code point to a Javascript string. The codepoint can be any valid
+UCS-4 Unicode character, including supplementary characters. Standard Javascript
+only supports supplementary characters using the UTF-16 encoding, which has
+values in the range 0x0000-0xFFFF. String.fromCharCode() will only
+give you a string containing 16-bit characters, and will not properly convert
+the code point for a supplementary character (which has a value &gt; 0xFFFF) into
+two UTF-16 surrogate characters. Instead, it will just just give you whatever
+single character happens to be the same as your code point modulo 0x10000, which
+is almost never what you want.<p></p>
+<p>Similarly, that means if you use String.charCodeAt()
+you will only retrieve a 16-bit value, which may possibly be a single
+surrogate character that is part of a surrogate pair representing a character
+in the supplementary plane. It will not give you a code point. Use
+IString.codePointAt() to access code points in a string, or use
+an iterator to walk through the code points in a string.</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line540">line 540</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>codepoint</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>UCS-4 code point to convert to a character</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>a string containing the character represented by the codepoint</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">string</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".isSurrogate"><span class="type-signature type-signature-static">(static) </span>isSurrogate<span class="signature">(ch)</span><span class="type-signature"> &rarr; {boolean}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Return true if the given character is a Unicode surrogate character,
+either high or low.</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line513">line 513</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>ch</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>character to check</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>true if the character is a surrogate</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">boolean</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".toCodePoint"><span class="type-signature type-signature-static">(static) </span>toCodePoint<span class="signature">(str, index)</span><span class="type-signature"> &rarr; {number}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Convert the character or the surrogate pair at the given
+index into the intrinsic Javascript string to a Unicode
+UCS-4 code point.</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ilib-istring_src_index.js.html">ilib-istring/src/index.js</a>, <a href="ilib-istring_src_index.js.html#line563">line 563</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>str</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>string to get the code point from</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>index</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>index into the string</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>code point of the character at the
+given index into the string</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">number</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 4.0.4</a> on Thu Jun 05 2025 14:57:47 GMT+0200 (Central European Summer Time) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+
+
+</body>
+</html>

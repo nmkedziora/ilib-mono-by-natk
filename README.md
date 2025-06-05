@@ -18,6 +18,7 @@ Each package has its own `README.md` and `package.json`, which are located in th
 - [Contributing](#contributing)
 - [Publishing](#publishing)
 - [License](#license)
+- [Documentation](#documentation)
 
 
 ## Project Status
@@ -62,3 +63,58 @@ For publishing instructions, please see the [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ## License
 This project is licensed under the Apache 2.0 License. See the [LICENSE](./LICENSE) file for details.
+
+
+## Documentation
+
+This monorepo uses a centralized documentation approach with GitHub Pages. Documentation is automatically generated from:
+
+1. JSDoc comments in source code
+2. Markdown files in each package
+
+### Documentation Structure
+
+The documentation is organized as follows:
+- All documentation is generated to the `docs/` directory at the root level
+- Each package's documentation is available under its own subdirectory (e.g., `/docs/ilib-common/`)
+- Documentation is automatically:
+  - Regenerated on each commit via a pre-commit hook
+  - Published to GitHub Pages when changes are pushed to the main branch
+
+### Configuration
+
+We use a centralized JSDoc configuration (`jsdoc.config.js` in the root directory) that:
+- Handles all packages uniformly
+- Enables markdown support
+- Provides consistent styling and navigation
+- Uses the docdash theme for a clean, modern look
+
+### Local Development
+
+To work with documentation locally:
+
+```bash
+# Generate documentation
+pnpm run doc         # Generates documentation for all packages
+
+# Clean and regenerate documentation
+pnpm run doc:full    # Cleans docs directory and regenerates all documentation
+
+# Clean only
+pnpm run doc:clean   # Removes generated documentation
+```
+
+#### Available Documentation Scripts
+
+The following npm scripts are available for documentation management:
+
+- `doc`: Generates documentation using the root config
+- `doc:clean`: Cleans the docs directory
+- `doc:full`: Full documentation regeneration (clean + generate)
+- `clean:jsdoc`: Removes individual jsdoc.json files from packages
+
+### Documentation Publishing
+
+Documentation is automatically published to GitHub Pages when changes are pushed to the main branch. The generated documentation is committed to the repository to ensure versioning and availability.
+
+Note: Package documentation is not included in the npm packages to keep them lightweight. Instead, all documentation is available on our GitHub Pages site.

@@ -14,14 +14,22 @@
     "test:all:force": "turbo test --force",
     "test:ci": "turbo test --concurrency=5",
     "test:ci:affected": "pnpm test:ci --affected",
-    "doc": "pnpm -F '[origin/main]' doc",
+    "doc": "jsdoc -c jsdoc.config.js",
+    "doc:clean": "rm -rf docs && mkdir docs",
+    "doc:full": "pnpm doc:clean && pnpm doc",
+    "clean:jsdoc": "./scripts/remove-jsdoc-configs.sh",
     "release": "pnpm build && pnpm changeset publish",
     "run:loctool": "NODE_PATH=packages node --inspect packages/loctool/loctool.js",
     "run:lint": "NODE_PATH=packages node --inspect packages/ilib-lint/src/index.js"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.9",
+    "better-docs": "^2.7.3",
+    "docdash": "^2.0.2",
+    "glob": "^11.0.2",
     "jest-junit": "^16.0.0",
+    "jsdoc": "^4.0.2",
+    "jsdoc-to-markdown": "^9.1.1",
     "semver": "^7.6.3",
     "turbo": "^2.2.3"
   },

@@ -1,0 +1,18 @@
+#!/bin/sh
+
+# Get list of staged files
+STAGED_FILES=$(git diff --cached --name-only --diff-filter=ACMR | grep -E '\.(js|jsx|ts|tsx)$' || true)
+
+if [ -n "$STAGED_FILES" ]; then
+    echo "Regenerating documentation for changed files..."
+    
+    # Run documentation generation
+    pnpm run doc
+
+    # Add the generated documentation to the commit
+    git add docs/
+
+    echo "Documentation regenerated and added to commit."
+fi
+
+exit 0 

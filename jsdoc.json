@@ -1,0 +1,28 @@
+{
+    "plugins": ["plugins/markdown"],
+    "recurseDepth": 10,
+    "source": {
+        "include": ["packages/ilib-common/src"],
+        "includePattern": ".+\\.(js|ts|jsx|tsx)$",
+        "excludePattern": "(node_modules/|docs/|dist/|build/|Gruntfile\\.js$)"
+    },
+    "sourceType": "module",
+    "tags": {
+        "allowUnknownTags": ["all"],
+        "dictionaries": ["jsdoc", "closure"]
+    },
+    "templates": {
+        "cleverLinks": true,
+        "monospaceLinks": false
+    },
+    "opts": {
+        "encoding": "utf8",
+        "destination": "./docs/",
+        "recurse": true,
+        "verbose": true
+    },
+    "markdown": {
+        "hardwrap": false,
+        "idInHeadings": true
+    }
+} 

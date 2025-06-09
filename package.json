@@ -15,6 +15,9 @@
     "test:ci": "turbo test --concurrency=5",
     "test:ci:affected": "pnpm test:ci --affected",
     "doc": "pnpm -F '[origin/main]' doc",
+    "docs:generate": "node scripts/generate-docs.js",
+    "docs:md": "jsdoc2md --configure jsdoc.json > API.md",
+    "docs:typedoc": "rm -rf lolkek/* && typedoc --options typedoc.json",
     "release": "pnpm build && pnpm changeset publish",
     "run:loctool": "NODE_PATH=packages node --inspect packages/loctool/loctool.js",
     "run:lint": "NODE_PATH=packages node --inspect packages/ilib-lint/src/index.js"
@@ -22,8 +25,11 @@
   "devDependencies": {
     "@changesets/cli": "^2.27.9",
     "jest-junit": "^16.0.0",
+    "jsdoc-to-markdown": "^9.1.1",
     "semver": "^7.6.3",
-    "turbo": "^2.2.3"
+    "turbo": "^2.2.3",
+    "typedoc": "^0.26.11",
+    "typedoc-plugin-markdown": "^4.2.10"
   },
   "pnpm": {
     "patchedDependencies": {

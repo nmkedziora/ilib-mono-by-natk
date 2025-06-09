@@ -11,7 +11,7 @@ function getLocFiles(locale, name): string[]
 ```
 
 Return an array of relative path names for the
-files that represent the data for the given locale.<p>
+files that represent the data for the given locale. 
 
 Note that to prevent the situation where a directory for
 a language exists next to the directory for a region where
@@ -24,12 +24,12 @@ same name which only differ by case. For example, "es" is
 the ISO 639 code for the language "Spanish" and "ES" is
 the ISO 3166 code for the region "Spain", so both the
 directories cannot exist underneath "locale". The region
-therefore will be loaded from "und/ES" instead.<p>
+therefore will be loaded from "und/ES" instead. 
 
 <h4>Variations</h4>
 
 With only language and region specified, the following
-sequence of paths will be generated:<p>
+sequence of paths will be generated: 
 
 <pre>
 language
@@ -37,27 +37,27 @@ und/region
 language/region
 </pre>
 
-With only language and script specified:<p>
+With only language and script specified: 
 
 <pre>
 language
 language/script
 </pre>
 
-With only script and region specified:<p>
+With only script and region specified: 
 
 <pre>
 und/region
 </pre>
 
-With only region and variant specified:<p>
+With only region and variant specified: 
 
 <pre>
 und/region
 region/variant
 </pre>
 
-With only language, script, and region specified:<p>
+With only language, script, and region specified: 
 
 <pre>
 language
@@ -67,7 +67,7 @@ language/region
 language/script/region
 </pre>
 
-With only language, region, and variant specified:<p>
+With only language, region, and variant specified: 
 
 <pre>
 language
@@ -77,7 +77,7 @@ region/variant
 language/region/variant
 </pre>
 
-With all parts specified:<p>
+With all parts specified: 
 
 <pre>
 language
@@ -124,15 +124,15 @@ to load locale data. Each sublocale might be represented
 separately by files on disk in order to share them with other
 locales that have the same sublocales. The sublocales are
 given in the order that they should be loaded, which is
-least specific to most specific.<p>
+least specific to most specific. 
 
 For example, the locale "en-US" would have the sublocales
-"root", "en", "und-US", and "en-US".<p>
+"root", "en", "und-US", and "en-US". 
 
 <h4>Variations</h4>
 
 With only language and region specified, the following
-sequence of sublocales will be generated:<p>
+sequence of sublocales will be generated: 
 
 <pre>
 root
@@ -141,7 +141,7 @@ und-region
 language-region
 </pre>
 
-With only language and script specified:<p>
+With only language and script specified: 
 
 <pre>
 root
@@ -149,14 +149,14 @@ language
 language-script
 </pre>
 
-With only script and region specified:<p>
+With only script and region specified: 
 
 <pre>
 root
 und-region
 </pre>
 
-With only region and variant specified:<p>
+With only region and variant specified: 
 
 <pre>
 root
@@ -164,7 +164,7 @@ und-region
 region-variant
 </pre>
 
-With only language, script, and region specified:<p>
+With only language, script, and region specified: 
 
 <pre>
 root
@@ -175,7 +175,7 @@ language-region
 language-script-region
 </pre>
 
-With only language, region, and variant specified:<p>
+With only language, region, and variant specified: 
 
 <pre>
 root
@@ -186,7 +186,7 @@ und-region-variant
 language-region-variant
 </pre>
 
-With all parts specified:<p>
+With all parts specified: 
 
 <pre>
 root

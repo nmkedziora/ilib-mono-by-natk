@@ -136,7 +136,7 @@ give you a string containing 16-bit characters, and will not properly convert
 the code point for a supplementary character (which has a value > 0xFFFF) into
 two UTF-16 surrogate characters. Instead, it will just just give you whatever
 single character happens to be the same as your code point modulo 0x10000, which
-is almost never what you want.<p>
+is almost never what you want.
 
 Similarly, that means if you use String.charCodeAt()
 you will only retrieve a 16-bit value, which may possibly be a single
@@ -269,7 +269,7 @@ and false otherwise
 function isEmpty(obj): boolean
 ```
 
-Return true if the given object has no properties.<p>
+Return true if the given object has no properties.
 
 #### Parameters
 
@@ -332,9 +332,9 @@ Merge the properties of object2 into object1 in a deep manner and return a merge
 object. If the property exists in both objects, the value in object2 will overwrite
 the value in object1. If a property exists in object1, but not in object2, its value
 will not be touched. If a property exists in object2, but not in object1, it will be
-added to the merged result.<p>
+added to the merged result.
 
-Name1 and name2 are for creating debug output only. They are not necessary.<p>
+Name1 and name2 are for creating debug output only. They are not necessary.
 
 #### Parameters
 
@@ -411,7 +411,7 @@ function shallowCopy(source, target): any
 
 Perform a shallow copy of the source object to the target object. This only
 copies the assignments of the source properties to the target properties,
-but not recursively from there.<p>
+but not recursively from there.
 
 #### Parameters
 

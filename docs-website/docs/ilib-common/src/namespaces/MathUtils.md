@@ -15,7 +15,7 @@ division algorithm, but for calendrical calculations, we need the Euclidean
 division algorithm where the remainder of any division, whether the dividend
 is negative or not, is always a positive number in the range (0, modulus]. The adjusted
 modulo function differs from the regular modulo function in that when the remainder is
-zero, the modulus should be returned instead.<p>
+zero, the modulus should be returned instead. 
 
 #### Parameters
 
@@ -224,7 +224,7 @@ function mod(dividend, modulus): number
 Do a proper modulo function. The Javascript % operator will give the truncated
 division algorithm, but for calendrical calculations, we need the Euclidean
 division algorithm where the remainder of any division, whether the dividend
-is negative or not, is always a positive number in the range [0, modulus).<p>
+is negative or not, is always a positive number in the range [0, modulus). 
 
 #### Parameters
 

@@ -15,7 +15,7 @@ function bisectionSearch(
    func): number
 ```
 
-Do a bisection search of a function for a particular target value.<p>
+Do a bisection search of a function for a particular target value. 
 
 The function to search is a function that takes a numeric parameter,
 does calculations, and returns gives a numeric result. The
@@ -67,18 +67,18 @@ function bsearch(
 
 Binary search a sorted array for a particular target value.
 If the exact value is not found, it returns the index of the smallest
-entry that is greater than the given target value.<p>
+entry that is greater than the given target value. 
 
 The comparator
 parameter is a function that knows how to compare elements of the
 array and the target. The function should return a value greater than 0
 if the array element is greater than the target, a value less than 0 if
 the array element is less than the target, and 0 if the array element
-and the target are equivalent.<p>
+and the target are equivalent. 
 
 If the comparator function is not specified, this function assumes
 the array and the target are numeric values and should be compared
-as such.<p>
+as such. 
 
 #### Parameters
 

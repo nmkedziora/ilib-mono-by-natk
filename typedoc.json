@@ -1,0 +1,23 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPoints": [
+    "./packages/ilib-po/src/index.ts",
+    "./packages/ilib-common/src/index.js"
+  ],
+  "entryPointStrategy": "expand",
+  "out": "./lolkek",
+  "plugin": ["typedoc-plugin-markdown"],
+  "cleanOutputDir": true,
+  "excludePrivate": true,
+  "excludeInternal": true,
+  "skipErrorChecking": true,
+  "compilerOptions": {"skipLibCheck": true},
+  "tsconfig": "./typedoc.tsconfig.json",
+  "validation": {
+    "notExported": false,
+    "invalidLink": false,
+    "notDocumented": false
+  },
+  "jsDocCompatibility": true,
+  "treatWarningsAsErrors": false
+}

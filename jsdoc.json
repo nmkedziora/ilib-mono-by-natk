@@ -1,6 +1,6 @@
 {
     "source": {
-        "include": ["packages/ilib-common/src"],
+        "include": ["packages/ilib-common/src", "packages/ilib-po/src"],
         "includePattern": ".+\\.(js|ts|jsx|tsx)$",
         "excludePattern": "(node_modules/|docs/|build/)"
     },

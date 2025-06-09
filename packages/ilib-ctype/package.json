@@ -105,5 +105,6 @@
     },
     "dependencies": {
         "ilib-common": "workspace:^"
-    }
+    },
+    "types": "./index.d.ts"
 }

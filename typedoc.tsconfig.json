@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "target": "es2020",
+    "module": "commonjs"
+  },
+  "include": [
+    "packages/ilib-common/src/**/*.js",
+    "packages/ilib-po/src/**/*.ts"
+  ]
+} 

@@ -9,7 +9,7 @@ try {
     const output = execSync('pnpm jsdoc2md --configure jsdoc.json', { encoding: 'utf8' });
     
     // Write output to file
-    writeFileSync('xdd/api.md', output);
+    writeFileSync('xdd/api-with-ts.md', output);
     
     console.log('Documentation generated successfully in xdd/api.md');
 } catch (error) {

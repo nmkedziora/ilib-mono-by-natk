@@ -19,5 +19,14 @@
     "notDocumented": false
   },
   "jsDocCompatibility": true,
-  "treatWarningsAsErrors": false
+  "treatWarningsAsErrors": false,
+  "readme": "none",
+  "disableSources": true,
+  "groupOrder": ["Classes", "Interfaces", "Functions", "Variables", "Type Aliases"],
+  "githubPages": false,
+  "hideBreadcrumbs": true,
+  "hidePageTitle": true,
+  "useCodeBlocks": true,
+  "disableGit": true,
+  "outputFileStrategy": "modules"
 }
